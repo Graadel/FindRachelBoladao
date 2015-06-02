@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraRoll" customModule="FindRachel" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="GaX-hR-eiC" id="S5z-4M-XKg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="GaX-hR-eiC">
+                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="540" id="E4w-fV-Ioh"/>
+                        <constraint firstAttribute="width" constant="600" id="he1-jQ-1yl"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="0.0" id="hmI-86-rF7">
+                        <size key="itemSize" width="90" height="90"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="3" minY="0.0" maxX="3" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="aYP-Q6-iWx"/>
+                        <outlet property="delegate" destination="-1" id="Bzj-oj-zWG"/>
+                    </connections>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFe-ps-jer">
+                    <rect key="frame" x="20" y="28" width="46" height="30"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="0hV-J8-qFo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GaX-hR-eiC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="Q6z-KL-Rd7"/>
+                <constraint firstItem="GaX-hR-eiC" firstAttribute="top" secondItem="HFe-ps-jer" secondAttribute="bottom" constant="2" id="RSV-iy-eaO"/>
+                <constraint firstItem="GaX-hR-eiC" firstAttribute="leading" secondItem="HFe-ps-jer" secondAttribute="leading" constant="-20" id="V1U-Ai-Wfj"/>
+                <constraint firstAttribute="bottom" secondItem="GaX-hR-eiC" secondAttribute="bottom" id="b1P-he-w16"/>
+                <constraint firstItem="GaX-hR-eiC" firstAttribute="leading" secondItem="HFe-ps-jer" secondAttribute="trailing" constant="-66" id="blU-8l-5qe"/>
+                <constraint firstAttribute="trailing" secondItem="GaX-hR-eiC" secondAttribute="trailing" id="ibA-MG-wxn"/>
+                <constraint firstItem="GaX-hR-eiC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jRp-Ie-DaX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="125" y="252"/>
+        </view>
+    </objects>
+</document>

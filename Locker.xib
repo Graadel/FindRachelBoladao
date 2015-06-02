@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Locker" customModule="FindRachel" customModuleProvider="target">
+            <connections>
+                <outlet property="lockLabel" destination="7yZ-cP-jO9" id="8A1-6x-kTN"/>
+                <outlet property="passImageView" destination="GkY-sj-hCx" id="ey6-HJ-W6m"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7g-kJ-5eP" userLabel="Button5">
+                    <rect key="frame" x="266" y="265" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="DMd-b4-IBA"/>
+                        <constraint firstAttribute="height" constant="69" id="fKq-Ip-KCa"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton5">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="xH9-dQ-G1e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2A-fK-ssW" userLabel="Button4">
+                    <rect key="frame" x="175" y="265" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="LWN-Ii-gC1"/>
+                        <constraint firstAttribute="height" constant="69" id="rkh-D8-ikG"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton4">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="CUE-aH-4oa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiW-NC-p6H" userLabel="Button3">
+                    <rect key="frame" x="357" y="174" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="Qwl-A3-f9f"/>
+                        <constraint firstAttribute="height" constant="69" id="pY8-Xp-R9Z"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton3">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="of8-Fc-8jH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AI-bm-HJO" userLabel="Button2">
+                    <rect key="frame" x="266" y="174" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="V7f-Ho-SN5"/>
+                        <constraint firstAttribute="width" constant="69" id="aT7-PO-waJ"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton2">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="uvk-nf-UOB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-AW-WZd" userLabel="Button1" customClass="SpringButton" customModule="Spring">
+                    <rect key="frame" x="175" y="174" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="GZy-gK-av8"/>
+                        <constraint firstAttribute="height" constant="69" id="VLs-dc-BOj"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton1">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="2"/>
+                    <state key="highlighted" image="lockbutton5"/>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="w1w-OB-zWf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGU-Zf-0xN" userLabel="Button7">
+                    <rect key="frame" x="175" y="356" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="078-aq-1By"/>
+                        <constraint firstAttribute="width" constant="69" id="fyh-J0-qHK"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton7">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="Ohy-6O-pdb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFE-mQ-AXo" userLabel="Button8">
+                    <rect key="frame" x="266" y="356" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="ObH-3u-vHz"/>
+                        <constraint firstAttribute="width" constant="69" id="TDI-6v-wsw"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton8">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="OmC-He-qMX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuU-Y4-Irv" userLabel="Button9">
+                    <rect key="frame" x="357" y="356" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="6b6-3s-cZj"/>
+                        <constraint firstAttribute="height" constant="69" id="UO3-6d-uhz"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton9">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="ueP-AQ-GpW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxN-vn-BJC" userLabel="Button0">
+                    <rect key="frame" x="266" y="447" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="8Gk-Ts-2aG"/>
+                        <constraint firstAttribute="width" constant="69" id="uMw-Kp-B7b"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton0">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="xxT-KM-dHC"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="GkY-sj-hCx" userLabel="PassView">
+                    <rect key="frame" x="230" y="85" width="141" height="61"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="141" id="DtQ-g3-Zta"/>
+                        <constraint firstAttribute="height" constant="61" id="mCX-bq-rQA"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-cP-jO9" userLabel="Right/Wrong">
+                    <rect key="frame" x="230" y="119" width="141" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="1Vu-Z1-Fow"/>
+                        <constraint firstAttribute="width" constant="141" id="3Un-GC-FEE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="34"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icf-Tn-ziO" userLabel="Button6">
+                    <rect key="frame" x="357" y="265" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="Lng-oi-w45"/>
+                        <constraint firstAttribute="width" constant="69" id="Sts-sh-QfH"/>
+                    </constraints>
+                    <state key="normal" image="lockbutton6">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="YKq-Qc-2AI"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Passcode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPZ-1G-b9D">
+                    <rect key="frame" x="0.0" y="53" width="600" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="600" id="DVG-EN-kIE"/>
+                        <constraint firstAttribute="height" constant="24" id="wsj-6o-vvZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lGU-Zf-0xN" firstAttribute="centerX" secondItem="K2A-fK-ssW" secondAttribute="centerX" id="0vo-Mx-5bj"/>
+                <constraint firstItem="K2A-fK-ssW" firstAttribute="centerX" secondItem="6kf-AW-WZd" secondAttribute="centerX" id="6ol-o1-wgU"/>
+                <constraint firstItem="wxN-vn-BJC" firstAttribute="centerX" secondItem="kFE-mQ-AXo" secondAttribute="centerX" id="9ZA-DB-EMB"/>
+                <constraint firstItem="2AI-bm-HJO" firstAttribute="centerX" secondItem="7yZ-cP-jO9" secondAttribute="centerX" id="C6p-XM-Dmt"/>
+                <constraint firstItem="K2A-fK-ssW" firstAttribute="centerY" secondItem="p7g-kJ-5eP" secondAttribute="centerY" id="GxQ-Hg-T9v"/>
+                <constraint firstItem="2AI-bm-HJO" firstAttribute="top" secondItem="7yZ-cP-jO9" secondAttribute="bottom" constant="28" id="H2E-8W-qP6"/>
+                <constraint firstItem="GkY-sj-hCx" firstAttribute="centerX" secondItem="2AI-bm-HJO" secondAttribute="centerX" id="JEh-ag-O9h"/>
+                <constraint firstAttribute="centerX" secondItem="p7g-kJ-5eP" secondAttribute="centerX" id="JRt-D9-gVR"/>
+                <constraint firstItem="GkY-sj-hCx" firstAttribute="top" secondItem="xPZ-1G-b9D" secondAttribute="bottom" constant="8" id="JnK-mU-sPX"/>
+                <constraint firstAttribute="centerY" secondItem="p7g-kJ-5eP" secondAttribute="centerY" id="Jv8-Aa-Cu0"/>
+                <constraint firstItem="kFE-mQ-AXo" firstAttribute="top" secondItem="p7g-kJ-5eP" secondAttribute="bottom" constant="22" id="UPK-s3-FwS"/>
+                <constraint firstItem="K2A-fK-ssW" firstAttribute="top" secondItem="6kf-AW-WZd" secondAttribute="bottom" constant="22" id="VE0-Gd-u0v"/>
+                <constraint firstItem="tuU-Y4-Irv" firstAttribute="top" secondItem="Icf-Tn-ziO" secondAttribute="bottom" constant="22" id="Wvd-N8-G8r"/>
+                <constraint firstItem="wxN-vn-BJC" firstAttribute="top" secondItem="kFE-mQ-AXo" secondAttribute="bottom" constant="22" id="XMK-hh-diH"/>
+                <constraint firstItem="p7g-kJ-5eP" firstAttribute="leading" secondItem="K2A-fK-ssW" secondAttribute="trailing" constant="22" id="ZO3-XD-8PR"/>
+                <constraint firstItem="p7g-kJ-5eP" firstAttribute="centerX" secondItem="2AI-bm-HJO" secondAttribute="centerX" id="Zw1-ym-dTM"/>
+                <constraint firstItem="Icf-Tn-ziO" firstAttribute="centerY" secondItem="p7g-kJ-5eP" secondAttribute="centerY" id="azP-YN-FLA"/>
+                <constraint firstItem="Icf-Tn-ziO" firstAttribute="leading" secondItem="p7g-kJ-5eP" secondAttribute="trailing" constant="22" id="cgk-zA-HdT"/>
+                <constraint firstItem="p7g-kJ-5eP" firstAttribute="centerX" secondItem="kFE-mQ-AXo" secondAttribute="centerX" id="dt7-gf-wgr"/>
+                <constraint firstItem="Icf-Tn-ziO" firstAttribute="centerX" secondItem="tuU-Y4-Irv" secondAttribute="centerX" id="elh-nR-lWK"/>
+                <constraint firstAttribute="centerY" secondItem="xPZ-1G-b9D" secondAttribute="centerY" constant="235" id="fAr-wM-BwD"/>
+                <constraint firstAttribute="centerX" secondItem="xPZ-1G-b9D" secondAttribute="centerX" id="jys-q6-UV1"/>
+                <constraint firstItem="iiW-NC-p6H" firstAttribute="centerX" secondItem="Icf-Tn-ziO" secondAttribute="centerX" id="kIz-JK-SML"/>
+                <constraint firstItem="Icf-Tn-ziO" firstAttribute="top" secondItem="iiW-NC-p6H" secondAttribute="bottom" constant="22" id="l8X-LG-WFo"/>
+                <constraint firstAttribute="centerX" secondItem="GkY-sj-hCx" secondAttribute="centerX" constant="-0.5" id="phb-Pn-x8s"/>
+                <constraint firstAttribute="centerY" secondItem="7yZ-cP-jO9" secondAttribute="centerY" constant="167.5" id="py3-O5-ISJ"/>
+                <constraint firstItem="lGU-Zf-0xN" firstAttribute="top" secondItem="K2A-fK-ssW" secondAttribute="bottom" constant="22" id="qRT-k2-hCE"/>
+                <constraint firstItem="2AI-bm-HJO" firstAttribute="top" secondItem="GkY-sj-hCx" secondAttribute="bottom" constant="63" id="xJ4-Ce-pNr"/>
+                <constraint firstItem="p7g-kJ-5eP" firstAttribute="top" secondItem="2AI-bm-HJO" secondAttribute="bottom" constant="22" id="yLD-xv-gjH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="230" y="334"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="0" width="238" height="52"/>
+        <image name="2" width="238" height="52"/>
+        <image name="lockbutton0" width="69" height="69"/>
+        <image name="lockbutton1" width="69" height="69"/>
+        <image name="lockbutton2" width="69" height="69"/>
+        <image name="lockbutton3" width="69" height="69"/>
+        <image name="lockbutton4" width="69" height="69"/>
+        <image name="lockbutton5" width="69" height="69"/>
+        <image name="lockbutton6" width="69" height="69"/>
+        <image name="lockbutton7" width="69" height="69"/>
+        <image name="lockbutton8" width="69" height="69"/>
+        <image name="lockbutton9" width="69" height="69"/>
+    </resources>
+</document>
