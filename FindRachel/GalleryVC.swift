@@ -70,11 +70,11 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         
         if indexPath.row == 0 {
             
-            cell.imageCellGallery.image = UIImage(named: "CameraRoll.png")
+            cell.imageCellGallery.image = UIImage(named: "CameraRoll")
             
         } else if indexPath.row == 1 {
             
-            cell.imageCellGallery.image = UIImage(named: "ReceivedFiles1.png")
+            cell.imageCellGallery.image = UIImage(named: "ReceivedFiles1")
         }
             
   

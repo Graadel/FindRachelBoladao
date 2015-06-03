@@ -14,13 +14,30 @@ class NotesVC: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    @IBOutlet var noteLabel: UILabel!
-    
+
+  
+    @IBOutlet var noteText: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        print("oi")
+        //TESTE:
+        
+        var labelFrame : CGRect = CGRectMake(20, 20, 280, 150)
+        var myLabel : UILabel = UILabel(frame: labelFrame)
+        myLabel.backgroundColor = UIColor.orangeColor()
+        
+        var labelText : String = "OIII"
+        
+        myLabel.numberOfLines = 0
+        myLabel.sizeToFit()
+        myLabel.text = labelText
+        
+        self.view.addSubview(myLabel)
+        
+        print(self.view.subviews)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -88,7 +88,8 @@ class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDa
             imagens = imagens + 1
         }
         
-        controller.noteLabel.text = tableData[indexPath.row]
+        controller.noteText.text = tableData[indexPath.row]
+        
         
         println(indexPath.row)
     }
@@ -96,6 +97,7 @@ class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 50
     }
+
 
     
     

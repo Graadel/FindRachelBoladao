@@ -120,7 +120,6 @@
 		C9B2F39A1B196728004F48FF /* BlockedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedVC.swift; sourceTree = "<group>"; };
 		C9B2F39B1B196728004F48FF /* FinishedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedVC.swift; sourceTree = "<group>"; };
 		C9B2F3A61B19831E004F48FF /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +139,6 @@
 				42ABF9861B0BAA0300AB933D /* FindRachel */,
 				42ABF99C1B0BAA0300AB933D /* FindRachelTests */,
 				42ABF9851B0BAA0300AB933D /* Products */,
-				0BF013B1E866AABCEDE7A8F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,9 +271,7 @@
 			buildConfigurationList = 42ABF9A31B0BAA0300AB933D /* Build configuration list for PBXNativeTarget "FindRachel" */;
 			buildPhases = (
 				42ABF9801B0BAA0300AB933D /* Sources */,
-				42ABF9811B0BAA0300AB933D /* Frameworks */,
 				42ABF9821B0BAA0300AB933D /* Resources */,
-
 			);
 			buildRules = (
 			);
@@ -536,7 +532,6 @@
 		};
 		42ABF9A41B0BAA0300AB933D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4E8E9EC7092559B00352B55 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -551,7 +546,6 @@
 		};
 		42ABF9A51B0BAA0300AB933D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE7196DB3FF6F6AC811434E5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
