@@ -45,7 +45,7 @@
 		7DBFEB3D1B0BADB6008F189E /* Locker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBFEB3B1B0BADB6008F189E /* Locker.xib */; };
 		7DBFEB4C1B0BB899008F189E /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFEB4A1B0BB899008F189E /* Messages.swift */; };
 		7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBFEB4B1B0BB899008F189E /* Messages.xib */; };
-		7DCF99A41B13BF5300B0A117 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF99A21B13BF5300B0A117 /* Photos.swift */; };
+		7DCF99A41B13BF5300B0A117 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF99A21B13BF5300B0A117 /* PhotosVC.swift */; };
 		7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF99A31B13BF5300B0A117 /* Photos.xib */; };
 		C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F3941B1966F5004F48FF /* AppDelegate.swift */; };
 		C9B2F39C1B196728004F48FF /* VideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F3961B196728004F48FF /* VideoVC.xib */; };
@@ -110,7 +110,7 @@
 		7DBFEB3B1B0BADB6008F189E /* Locker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Locker.xib; path = ../Locker.xib; sourceTree = "<group>"; };
 		7DBFEB4A1B0BB899008F189E /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = ../Messages.swift; sourceTree = "<group>"; };
 		7DBFEB4B1B0BB899008F189E /* Messages.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Messages.xib; path = ../Messages.xib; sourceTree = "<group>"; };
-		7DCF99A21B13BF5300B0A117 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		7DCF99A21B13BF5300B0A117 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		7DCF99A31B13BF5300B0A117 /* Photos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Photos.xib; sourceTree = "<group>"; };
 		C9B2F3941B1966F5004F48FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B2F3961B196728004F48FF /* VideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoVC.xib; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 				7D70B9AC1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift */,
 				7D3D46411B0CF809004FC699 /* GalleryVC.swift */,
 				7D18CEDD1B0E8ED300F3B340 /* IconCellGallery.swift */,
-				7DCF99A21B13BF5300B0A117 /* Photos.swift */,
+				7DCF99A21B13BF5300B0A117 /* PhotosVC.swift */,
 				7DAE7B631B17A069002B6D4A /* ReceivedFiles.swift */,
 				7D16DB571B17A2EC00B02AE7 /* IconCellReceivedFiles.swift */,
 				7D16DB631B17AEF400B02AE7 /* CameraRoll.swift */,
@@ -394,7 +394,7 @@
 				7DBFEB4C1B0BB899008F189E /* Messages.swift in Sources */,
 				60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */,
 				7DAE7B651B17A069002B6D4A /* ReceivedFiles.swift in Sources */,
-				7DCF99A41B13BF5300B0A117 /* Photos.swift in Sources */,
+				7DCF99A41B13BF5300B0A117 /* PhotosVC.swift in Sources */,
 				C9B2F3A11B196728004F48FF /* FinishedVC.swift in Sources */,
 				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,

@@ -67,7 +67,6 @@ class BlockedVC: UIViewController, UIScrollViewDelegate{
         view.addSubview(blurView)
         view.addSubview(hora)
         view.addSubview(dia)
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -82,15 +81,4 @@ class BlockedVC: UIViewController, UIScrollViewDelegate{
         self.prefersStatusBarHidden()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

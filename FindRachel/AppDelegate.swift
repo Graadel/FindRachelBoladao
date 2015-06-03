@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             defaults.setInteger(1, forKey: "hasRun")
             defaults.synchronize()
             return true
+            
         }
         
         return false
@@ -30,6 +31,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         println(defaults.integerForKey("hasRun").description)
         println(defaults.integerForKey("GamePhase").description)
+        
+            var galleryVC: GalleryVC = GalleryVC(nibName:"Gallery", bundle: nil)
+            self.window!.rootViewController = galleryVC
+  
+        
+        
         
         if defaults.integerForKey("hasRun") == 0 {
             
@@ -87,6 +94,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 self.window!.rootViewController = lockerVC
                 
                 
+                
             } else if defaults.integerForKey("GamePhase") == 10 {
                 
                 var finishedVC: FinishedVC = FinishedVC(nibName:"FinishedVC", bundle: nil)
@@ -97,11 +105,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
         
-        
+        //isso aqui tem que voltar
 //        var controller: TestViewController = TestViewController(nibName:"TestViewController", bundle: nil)
 //        self.window!.rootViewController = controller
+
 //
-//        
 
         
         

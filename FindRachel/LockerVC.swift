@@ -93,15 +93,18 @@ class LockerVC: UIViewController {
         if defaults.integerForKey("LockerIndex") == 0 {
             defaults.setInteger(1, forKey: "LockerIndex")
             defaults.synchronize()
+            
             defaults.setInteger(3, forKey: "GamePhase")
             defaults.synchronize()
             
-            println("caralho", defaults.integerForKey("LockerIndex"))
+            println("funcionou", defaults.integerForKey("LockerIndex"))
         } else if defaults.integerForKey("LockerIndex") == 1 {
             defaults.setInteger(2, forKey: "LockerIndex")
             defaults.synchronize()
+            
             defaults.setInteger(7, forKey: "GamePhase")
             defaults.synchronize()
+            
         } else if defaults.integerForKey("LockerIndex") == 2 {
             defaults.setInteger(10, forKey: "GamePhase")
             defaults.synchronize()

@@ -19,9 +19,11 @@ class VideoVC: UIViewController {
         super.viewDidLoad()
 
         playVideo()
+        //Velocidade do video
         moviePlayer?.currentPlaybackRate = 10.0
         
-        delay(25){
+        //demora para da o play
+        delay(2){
         
         var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
         self.presentViewController(lockerVC, animated: true, completion: nil)
