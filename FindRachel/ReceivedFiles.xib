@@ -16,8 +16,9 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nz-1h-FWf">
-                    <rect key="frame" x="25" y="28" width="46" height="30"/>
-                    <state key="normal" title="Button">
+                    <rect key="frame" x="25" y="25" width="46" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -33,24 +34,33 @@
                     </constraints>
                     <inset key="scrollIndicatorInsets" minX="0.0" minY="3" maxX="0.0" maxY="3"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="0.0" id="mgP-vj-mIQ">
-                        <size key="itemSize" width="90" height="90"/>
+                        <size key="itemSize" width="93" height="93"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="3" minY="0.0" maxX="3" maxY="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="zhl-vx-S6q"/>
                         <outlet property="delegate" destination="-1" id="3HL-lI-ExY"/>
                     </connections>
                 </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Received Files" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-Qe-BDc">
+                    <rect key="frame" x="461" y="32" width="116" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="leading" secondItem="2Nz-1h-FWf" secondAttribute="leading" constant="-25" id="5LL-h2-JkL"/>
                 <constraint firstAttribute="bottom" secondItem="Ps9-BT-6Py" secondAttribute="bottom" id="7K6-fj-p4G"/>
+                <constraint firstItem="Ps9-BT-6Py" firstAttribute="trailing" secondItem="LZf-Qe-BDc" secondAttribute="trailing" constant="23" id="EJU-EY-bBk"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="leading" secondItem="2Nz-1h-FWf" secondAttribute="trailing" constant="-71" id="MZj-66-bhG"/>
+                <constraint firstItem="LZf-Qe-BDc" firstAttribute="leading" secondItem="Ps9-BT-6Py" secondAttribute="trailing" constant="-139" id="R3D-Pq-Yxk"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="ThK-rN-0Xv"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zyu-sc-yoE"/>
+                <constraint firstItem="Ps9-BT-6Py" firstAttribute="top" secondItem="LZf-Qe-BDc" secondAttribute="bottom" constant="7" id="dYa-lM-79o"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="top" secondItem="2Nz-1h-FWf" secondAttribute="bottom" constant="2" id="fQB-xg-KE3"/>
                 <constraint firstAttribute="trailing" secondItem="Ps9-BT-6Py" secondAttribute="trailing" id="ncr-ty-wET"/>
             </constraints>

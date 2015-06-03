@@ -31,7 +31,7 @@ class CameraRoll: UIViewController, UICollectionViewDataSource, UICollectionView
         
         // Do any additional setup after loading the view.
         
-        Array=["r1","r2","arvore","r3","coqueiro","Pato1","Japones","r4","Kat","Mar_areia","r5","Mar","noite","Sapatilha","r6","r7","chandelier","ceu","casa","sinal","sunday","Visual","r8","Praia","pizza","Pato2","Oceano","Lounge"]
+        Array=["r1","r2","arvore","r3","coqueiro","Pato1","Japones","r4","Kat","Mar_areia","r5","Mar","noite","Sapatilha","r6","r7","chandelier","ceu","casa","sinal","sunday","Visual","r8","Praia","pizza","Pato2","Oceano","Lounge","r9"]
         
         
         self.collectionView.registerNib(UINib(nibName:"IconCellCameraRoll", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
