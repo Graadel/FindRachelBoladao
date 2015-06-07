@@ -15,23 +15,52 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hio-KY-7W2">
-                    <rect key="frame" x="17" y="16" width="46" height="30"/>
-                    <state key="normal" title="Button">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="Knl-MB-6qO"/>
-                    </connections>
-                </button>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="lo" translatesAutoresizingMaskIntoConstraints="NO" id="XHn-AG-V1L">
-                    <rect key="frame" x="8" y="54" width="584" height="394"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="lo" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XHn-AG-V1L">
+                    <rect key="frame" x="0.0" y="50" width="600" height="550"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="550" id="h7w-9f-0Z2"/>
+                        <constraint firstAttribute="width" constant="600" id="zU9-Xd-Si0"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1s-X6-3Pu">
+                    <rect key="frame" x="27" y="17" width="39" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="IFP-qi-ALB"/>
+                        <constraint firstAttribute="width" constant="39" id="cyI-Dy-4BY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="szC-mo-raB"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="92r-mE-1tK"/>
+                <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="g1s-X6-3Pu" secondAttribute="trailing" constant="-66" id="D69-5F-dAc"/>
+                <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="g1s-X6-3Pu" secondAttribute="bottom" constant="1" id="QUg-Yo-4yd"/>
+                <constraint firstAttribute="bottom" secondItem="XHn-AG-V1L" secondAttribute="bottom" id="RBE-01-so5"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="XHn-AG-V1L" secondAttribute="leading" constant="27" id="Xc7-9c-zwh"/>
+                <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="adA-Qc-YV6"/>
+                <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="g1s-X6-3Pu" secondAttribute="trailing" constant="-66" id="ag1-g1-fpk"/>
+                <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="g1s-X6-3Pu" secondAttribute="bottom" id="keL-1g-jeS"/>
+                <constraint firstAttribute="trailing" secondItem="XHn-AG-V1L" secondAttribute="trailing" id="l2c-44-Khm"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="XHn-AG-V1L" secondAttribute="leading" constant="19" id="mg7-dz-Stf"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="mg7-dz-Stf"/>
+                    <exclude reference="QUg-Yo-4yd"/>
+                    <exclude reference="ag1-g1-fpk"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="284" y="257"/>
         </view>
     </objects>
 </document>

@@ -24,12 +24,13 @@
                     </connections>
                 </tableView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="095-s9-Gvz">
-                    <rect key="frame" x="21" y="32" width="35" height="30"/>
+                    <rect key="frame" x="21" y="32" width="49" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="hv4-VV-hqW"/>
+                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="WSy-g3-eXo"/>
                     </connections>
                 </button>
             </subviews>

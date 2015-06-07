@@ -10,17 +10,17 @@ import UIKit
 
 class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBAction func backButton(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+  
     var imagens: Int! = 0
     var defaults = NSUserDefaults.standardUserDefaults()
     
-    @IBAction func backButton(sender: AnyObject) {
-    
-    self.dismissViewControllerAnimated(true, completion: nil)
-        
-    }
+  
     @IBOutlet var tableView: UITableView!
     
-    var tableData = ["All you need is love, love...","Today I went to college...","I've never felt this way...", "Love you, xoxo Chloe...", "I make poems...", "Buy eggs", "Download: Gone Girl "]
+    var tableData = ["All you need is love, love...","I just want to get this off my chest:\n \nThings are really strange...\nI’m losing all my friends.\nEverybody is mad at me.\nAnd I can't understand why. I should be mad at them, not the opposite.\nI feel that something really bad is about to happen...\nI can feel this…..","I've never felt this way...", "Love you, xoxo Chloe...", "I make poems...", "Buy eggs", "Download: Gone Girl "]
     
     override func viewDidLoad() {
         super.viewDidLoad()
