@@ -27,7 +27,7 @@ class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionV
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        
+             self.view.backgroundColor = UIColor.whiteColor()
         Array=["h","h1","h2","h3","h4","h5","h6","h7","h8","h9"]
         
         

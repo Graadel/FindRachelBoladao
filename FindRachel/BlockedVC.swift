@@ -29,6 +29,7 @@ class BlockedVC: UIViewController, UIScrollViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         booleano = true
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu.png")!)
         
          UIApplication.sharedApplication().statusBarHidden = true
 
@@ -60,7 +61,7 @@ class BlockedVC: UIViewController, UIScrollViewDelegate{
         
         imageView = UIImageView(image: background)
         imageView.contentMode = UIViewContentMode.ScaleAspectFill
-        imageView.backgroundColor = UIColor.blackColor()
+     
         imageView.frame = UIScreen.mainScreen().bounds
         
         view.addSubview(imageView)

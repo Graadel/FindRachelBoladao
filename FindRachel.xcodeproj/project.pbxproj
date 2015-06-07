@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		168FD99C1B1E1FC900BFC884 /* findrachelfinal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168FD99B1B1E1FC900BFC884 /* findrachelfinal.mp4 */; };
+		16AA3A4B1B1FA67A007507C7 /* LockerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */; };
+		16AA3A4D1B1FAB7B007507C7 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */; };
+		16AA3A4F1B1FABA0007507C7 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */; };
 		427324D41B0E65F2008F1155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427324D31B0E65F2008F1155 /* Images.xcassets */; };
 		42ABF98C1B0BAA0300AB933D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF98B1B0BAA0300AB933D /* ViewController.swift */; };
 		42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF98D1B0BAA0300AB933D /* Main.storyboard */; };
@@ -69,6 +72,9 @@
 
 /* Begin PBXFileReference section */
 		168FD99B1B1E1FC900BFC884 /* findrachelfinal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = findrachelfinal.mp4; sourceTree = "<group>"; };
+		16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerTest.swift; sourceTree = "<group>"; };
+		16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		427324D31B0E65F2008F1155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42ABF9841B0BAA0300AB933D /* FindRachel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindRachel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ABF9881B0BAA0300AB933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -231,6 +237,7 @@
 				7DCF99A31B13BF5300B0A117 /* Photos.xib */,
 				7DAE7B641B17A069002B6D4A /* ReceivedFiles.xib */,
 				7D16DB581B17A2EC00B02AE7 /* IconCellReceivedFiles.xib */,
+				16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */,
 				7D16DB641B17AEF400B02AE7 /* CameraRoll.xib */,
 				7D16DB681B17B22F00B02AE7 /* IconCellCameraRoll.xib */,
 				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
@@ -259,6 +266,8 @@
 				7D16DB571B17A2EC00B02AE7 /* IconCellReceivedFiles.swift */,
 				7D16DB631B17AEF400B02AE7 /* CameraRoll.swift */,
 				7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */,
+				16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */,
+				16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -352,6 +361,7 @@
 				7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */,
 				60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */,
 				7D70B99D1B0E677B00BC1FB3 /* MainScreen.xib in Resources */,
+				16AA3A4D1B1FAB7B007507C7 /* ContentViewController.xib in Resources */,
 				7DAE7B5E1B163B64002B6D4A /* NotesCell.xib in Resources */,
 				42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */,
 				7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */,
@@ -394,6 +404,7 @@
 				7DBFEB4C1B0BB899008F189E /* Messages.swift in Sources */,
 				60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */,
 				7DAE7B651B17A069002B6D4A /* ReceivedFiles.swift in Sources */,
+				16AA3A4B1B1FA67A007507C7 /* LockerTest.swift in Sources */,
 				7DCF99A41B13BF5300B0A117 /* PhotosVC.swift in Sources */,
 				C9B2F3A11B196728004F48FF /* FinishedVC.swift in Sources */,
 				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
@@ -402,6 +413,7 @@
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
 				C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */,
+				16AA3A4F1B1FABA0007507C7 /* ContentViewController.swift in Sources */,
 				7DAE7B5B1B16342B002B6D4A /* Notes2ViewController.swift in Sources */,
 				7D16DB651B17AEF400B02AE7 /* CameraRoll.swift in Sources */,
 				C9B2F3A71B19831E004F48FF /* Animator.swift in Sources */,

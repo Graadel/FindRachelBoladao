@@ -9,11 +9,11 @@
 import UIKit
 
 class LockerVC: UIViewController {
-
     
+    
+
     var defaults = NSUserDefaults.standardUserDefaults()
     var code: String!
-    
     var valueString = ""
     @IBOutlet weak var lockLabel: UILabel!
     @IBOutlet weak var passImageView: UIImageView!
@@ -21,8 +21,11 @@ class LockerVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu.png")!)
+        
     
-        passImageView.image = UIImage(named: "0")
+        passImageView.image = UIImage(named: "visor1")
         // Do any additional setup after loading the view.
     }
     
@@ -59,18 +62,18 @@ class LockerVC: UIViewController {
         
         //MUDA IMAGEM E CONFERE SENHA
         if count(valueString) == 1 {
-            passImageView.image = UIImage(named: "1")
+            passImageView.image = UIImage(named: "visor2")
             lockLabel.text = ""
 
         } else if count(valueString) == 2 {
-            passImageView.image = UIImage(named: "2")
+            passImageView.image = UIImage(named: "visor3")
             //lockLabel.text = valueString
         } else if count(valueString) == 3 {
-            passImageView.image = UIImage(named: "3")
+            passImageView.image = UIImage(named: "visor4")
             //lockLabel.text = valueString
         } else if count(valueString) == 4 && valueString == code {
             valueString = ""
-            passImageView.image = UIImage(named: "4")
+            passImageView.image = UIImage(named: "visor5")
             
             var controller: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle:nil)
             self.presentViewController(controller, animated: true, completion: nil)
@@ -79,7 +82,7 @@ class LockerVC: UIViewController {
             println(code)
             valueString = ""
             lockLabel.text = "errado"
-            passImageView.image = UIImage(named: "0")
+            passImageView.image = UIImage(named: "visor1")
         }
     
     }

@@ -14,6 +14,7 @@ class Photos: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+             self.view.backgroundColor = UIColor.whiteColor()
         
         let image = UIImage(named: imageName)
         let imageView = UIImageView(image: image!)

@@ -14,6 +14,8 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu.png")!)
+
 
         
     self.collectionView.registerNib(UINib(nibName:"IconCellMainScreen", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
@@ -56,7 +58,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return 7
+        return 11
     }
     
     // essa func adiciona imagens aos icons
@@ -70,12 +72,12 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
 
         } else if indexPath.row == 1 {
             
-            cell.imageCell.image = UIImage(named: "gallery.png")
+            cell.imageCell.image = UIImage(named: "photos.png")
         }
         
         else if indexPath.row == 2 {
         
-            cell.imageCell.image = UIImage(named: "notas.png")
+            cell.imageCell.image = UIImage(named: "notes.png")
             
         } else if indexPath.row == 3 {
             
@@ -83,7 +85,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             
         } else if indexPath.row == 4 {
             
-            cell.imageCell.image = UIImage(named: "snap.png")
+            cell.imageCell.image = UIImage(named: "snapp.png")
             
         } else if indexPath.row == 5 {
             
@@ -93,7 +95,30 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             
             cell.imageCell.image = UIImage(named: "twitter.png")
             
+        } else if indexPath.row == 7 {
+            
+            cell.imageCell.image = UIImage(named: "music.png")
+            
+        } else if indexPath.row == 8 {
+            
+            cell.imageCell.image = UIImage(named: "fone.png")
         }
+            else if indexPath.row == 9{
+                
+                cell.imageCell.image = UIImage(named: "sms.png")
+        }
+        else if indexPath.row == 10 {
+            
+            cell.imageCell.image = UIImage(named: "internet.png")
+            var alert = UIAlertController(title: "Tip:", message: "PrintScreen is your BFF", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+        
+       
+            
+        
+
 
         
         
@@ -124,6 +149,54 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             var controller = Notes2ViewController(nibName:"Notes2ViewController", bundle:NSBundle.mainBundle())
             
             self.presentViewController(controller, animated: true, completion: nil)
+            
+        } else if indexPath.row == 3 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 4 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 5 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 6 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 7 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 8 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 9 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        } else if indexPath.row == 10 {
+            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+
+
+
+
+
+
+
+
             
         }
 
