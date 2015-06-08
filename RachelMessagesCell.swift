@@ -1,20 +1,17 @@
 //
-//  ContactMessagesCell.swift
+//  RachelMessagesCell.swift
 //  FindRachel
 //
-//  Created by Thiago Gallego on 26/05/15.
+//  Created by Thiago Gallego on 08/06/15.
 //  Copyright (c) 2015 Julia Motta Baitelli. All rights reserved.
 //
 
 import UIKit
 
-class ContactMessagesCell: UITableViewCell {
+class RachelMessagesCell: UITableViewCell {
 
-    
-    //@IBOutlet var messageImageView: UIImageView!
     @IBOutlet var messageLabel: UILabel!
     
-    @IBOutlet weak var messageLabelR: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -13,15 +13,15 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvC-Uf-dwB">
-                        <rect key="frame" x="15" y="15" width="290" height="164"/>
+                        <rect key="frame" x="15" y="15" width="185" height="164"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="JvC-Uf-dwB" secondAttribute="trailing" constant="15" id="9LC-ox-lqk"/>
                     <constraint firstAttribute="bottom" secondItem="JvC-Uf-dwB" secondAttribute="bottom" constant="14" id="EIh-GF-wKp"/>
+                    <constraint firstAttribute="trailing" secondItem="JvC-Uf-dwB" secondAttribute="trailing" constant="120" id="aQB-D2-rRd"/>
                     <constraint firstItem="JvC-Uf-dwB" firstAttribute="leading" secondItem="r9a-as-bDz" secondAttribute="leading" constant="15" id="eoN-7A-y2X"/>
                     <constraint firstItem="JvC-Uf-dwB" firstAttribute="top" secondItem="r9a-as-bDz" secondAttribute="top" constant="15" id="ywY-c4-WcO"/>
                 </constraints>

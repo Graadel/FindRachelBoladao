@@ -26,10 +26,16 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Register custom cell
+        //Register custom cells
+        //contacts
         var nib = UINib(nibName: "ContactMessagesTVCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "Cell")
-
+        
+        //Rachel
+        var nibR = UINib(nibName: "RachelMessagesTVCell", bundle: nil)
+        tableView.registerNib(nibR, forCellReuseIdentifier: "RachelCell")
+        
+        
         configureTableView()
         
         tableView.delegate = self
@@ -51,41 +57,39 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        //let cell:UITableViewCell=UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "mycell")
-
-        var cell:ContactMessagesCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! ContactMessagesCell
         
-        //cell.messageImageView.image = UIImage(named:btableData[indexPath.row])
-        
-        tableView.rowHeight = UITableViewAutomaticDimension
-        
-        cell.messageLabel.text = btableData[indexPath.row]
-        cell.messageLabel.layer.cornerRadius = 8
-        cell.messageLabel.layer.masksToBounds = true
-        cell.messageLabel.backgroundColor = UIColor.blueColor()
-        cell.messageLabel.textColor = UIColor.whiteColor()
-        
-        return cell
+        if indexPath.row == 0 {
+            var cell:ContactMessagesCell!
+            cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ContactMessagesCell
+            cell.messageLabel.text = btableData[indexPath.row]
+            cell.messageLabel.layer.cornerRadius = 8
+            cell.messageLabel.layer.masksToBounds = true
+            cell.messageLabel.backgroundColor = UIColor.blueColor()
+            cell.messageLabel.textColor = UIColor.whiteColor()
+            
+            return cell
+            
+        } else {
+            var cell:RachelMessagesCell!
+            cell = tableView.dequeueReusableCellWithIdentifier("RachelCell", forIndexPath: indexPath) as! RachelMessagesCell
+            cell.messageLabel.text = btableData[indexPath.row]
+            cell.messageLabel.layer.cornerRadius = 8
+            cell.messageLabel.layer.masksToBounds = true
+            cell.messageLabel.backgroundColor = UIColor.grayColor()
+            cell.messageLabel.textColor = UIColor.whiteColor()
+            
+            return cell
+        }
         
     }
     
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Row \(indexPath.row) selected")
-        
-//        var controller: MainScreen = MainScreen(nibName:"MainScreen", bundle:NSBundle.mainBundle())
-//        
-//        self.presentViewController(controller, animated: true, completion: nil)
-//        
-        
-    }
-    
-//    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//
-//        return 194
-//    }
 
-        //TODO: VOLTAR
+    }
+
+
     func configureTableView() {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 160.0
