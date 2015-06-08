@@ -16,6 +16,8 @@
 		42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF98D1B0BAA0300AB933D /* Main.storyboard */; };
 		42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF9921B0BAA0300AB933D /* LaunchScreen.xib */; };
 		42ABF9A01B0BAA0300AB933D /* FindRachelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */; };
+		60576F6B1B1E54CC0046B351 /* LabelTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60576F691B1E54CC0046B351 /* LabelTestViewController.swift */; };
+		60576F6C1B1E54CC0046B351 /* LabelTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60576F6A1B1E54CC0046B351 /* LabelTestViewController.xib */; };
 		60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0E81B13D32400691114 /* MessagesTVCell.xib */; };
 		60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0EE1B13D5C700691114 /* MessagesCell.swift */; };
 		60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */; };
@@ -84,6 +86,8 @@
 		42ABF9991B0BAA0300AB933D /* FindRachelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindRachelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ABF99E1B0BAA0300AB933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRachelTests.swift; sourceTree = "<group>"; };
+		60576F691B1E54CC0046B351 /* LabelTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTestViewController.swift; sourceTree = "<group>"; };
+		60576F6A1B1E54CC0046B351 /* LabelTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTestViewController.xib; sourceTree = "<group>"; };
 		60F4B0E81B13D32400691114 /* MessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTVCell.xib; sourceTree = "<group>"; };
 		60F4B0EE1B13D5C700691114 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
 		60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessageViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 				60F4B0F11B14F4E500691114 /* ContactMessageViewController.xib */,
 				60F4B0F61B14F98300691114 /* ContactMessagesCell.swift */,
 				60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */,
+				60576F691B1E54CC0046B351 /* LabelTestViewController.swift */,
+				60576F6A1B1E54CC0046B351 /* LabelTestViewController.xib */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 				7DAE7B5E1B163B64002B6D4A /* NotesCell.xib in Resources */,
 				42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */,
 				7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */,
+				60576F6C1B1E54CC0046B351 /* LabelTestViewController.xib in Resources */,
 				7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */,
 				7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */,
 				7D16DB771B18FF1800B02AE7 /* NotesView.xib in Resources */,
@@ -409,6 +416,7 @@
 				C9B2F3A11B196728004F48FF /* FinishedVC.swift in Sources */,
 				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,
+				60576F6B1B1E54CC0046B351 /* LabelTestViewController.swift in Sources */,
 				C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */,
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
