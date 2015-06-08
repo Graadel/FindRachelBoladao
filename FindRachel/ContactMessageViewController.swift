@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ContactMessageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     let btableData = ["hshdklsdjas fas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas", "hshdklsdjas fas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDS", "hshdklsdjas fas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDS fas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDSfas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDS"]
+    
     //let btableData = ["msg_1_1", "msg_1_2", "msg_1_3"]
     @IBOutlet weak var tableView: UITableView!
     @IBAction func backButton(sender: AnyObject) {
@@ -27,7 +29,7 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
         //Register custom cell
         var nib = UINib(nibName: "ContactMessagesTVCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "Cell")
-        
+
         configureTableView()
         
         tableView.delegate = self
@@ -55,10 +57,18 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
         
         //cell.messageImageView.image = UIImage(named:btableData[indexPath.row])
         
+        tableView.rowHeight = UITableViewAutomaticDimension
+        
         cell.messageLabel.text = btableData[indexPath.row]
+        cell.messageLabel.layer.cornerRadius = 8
+        cell.messageLabel.layer.masksToBounds = true
+        cell.messageLabel.backgroundColor = UIColor.blueColor()
+        cell.messageLabel.textColor = UIColor.whiteColor()
         
         return cell
+        
     }
+    
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Row \(indexPath.row) selected")
@@ -75,9 +85,11 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
 //        return 194
 //    }
 
+        //TODO: VOLTAR
     func configureTableView() {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 160.0
     }
-    
+   
+        
 }

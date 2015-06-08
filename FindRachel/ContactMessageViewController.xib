@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactMessageViewController" customModule="FindRachel" customModuleProvider="target">
@@ -15,10 +15,6 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-55-jAS">
-                    <rect key="frame" x="0.0" y="70" width="600" height="530"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </tableView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-q7-Evh">
                     <rect key="frame" x="24" y="32" width="35" height="30"/>
                     <state key="normal" title="Back">
@@ -28,13 +24,39 @@
                         <action selector="backButton:" destination="-1" eventType="touchUpInside" id="W1q-NW-KRe"/>
                     </connections>
                 </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-55-jAS">
+                    <rect key="frame" x="0.0" y="70" width="600" height="530"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="b9X-o1-e7M"/>
+                <constraint firstAttribute="trailing" secondItem="EsX-55-jAS" secondAttribute="trailing" id="08C-gf-5cx"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="61" id="Bg1-8O-MIt"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="-1" id="Vl4-bL-4WI"/>
+                <constraint firstAttribute="bottom" secondItem="EsX-55-jAS" secondAttribute="bottom" id="ZlG-r7-Zly"/>
                 <constraint firstItem="uqb-q7-Evh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="hgG-3f-x8y"/>
-                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="8" id="sgL-B0-kFU"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xGU-b0-ALj"/>
             </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="08C-gf-5cx"/>
+                    <exclude reference="Bg1-8O-MIt"/>
+                    <exclude reference="Vl4-bL-4WI"/>
+                    <exclude reference="ZlG-r7-Zly"/>
+                    <exclude reference="xGU-b0-ALj"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="08C-gf-5cx"/>
+                    <include reference="Bg1-8O-MIt"/>
+                    <include reference="Vl4-bL-4WI"/>
+                    <include reference="ZlG-r7-Zly"/>
+                    <include reference="xGU-b0-ALj"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>
