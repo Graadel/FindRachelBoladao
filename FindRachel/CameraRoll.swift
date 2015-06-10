@@ -9,7 +9,7 @@
 import UIKit
 
 class CameraRoll: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-
+    
     @IBOutlet var collectionView: UICollectionView!
     var imagens: Int! = 0
     var defaults = NSUserDefaults.standardUserDefaults()
@@ -19,8 +19,6 @@ class CameraRoll: UIViewController, UICollectionViewDataSource, UICollectionView
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 
-    
-    
     var imageView = UIImageView()
     
     var Array: [String] = []

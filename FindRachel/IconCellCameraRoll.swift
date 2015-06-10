@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IconCellCameraRoll: UICollectionViewCell {
+class IconCellCameraRoll: UICollectionViewCell, UIScrollViewDelegate {
 
     @IBOutlet var imageCellCameraRoll: UIImageView!
     
@@ -16,5 +16,7 @@ class IconCellCameraRoll: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    
 
 }
