@@ -9,10 +9,12 @@
 import UIKit
 import SpriteKit
 
+var selected: Int!
+
 class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //UITableViewDataSource
     
-    let tableData = ["Lisa", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
+    let tableData = ["Amanda", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
     @IBOutlet weak var tableView: UITableView!
     @IBAction func backButton(sender: AnyObject) {
         var controller: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle:NSBundle.mainBundle())
@@ -65,6 +67,8 @@ class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
         println("Row \(indexPath.row) selected")
         
         var messageController: ContactMessageViewController = ContactMessageViewController(nibName:"ContactMessageViewController", bundle:NSBundle.mainBundle())
+        
+        selected = indexPath.row
         
         self.presentViewController(messageController, animated: true, completion: nil)
 

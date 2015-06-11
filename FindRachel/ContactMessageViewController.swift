@@ -12,8 +12,17 @@ import QuartzCore
 
 class ContactMessageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    let btableData = ["Hey Rach.. Are you going to class today?"
-, "I'm not going today again… I was going to ask if I can copy your notes later… I have some issues at home… ", "hshdklsdjas fas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDS fas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDSfas d asdsadas dassa dasdasdasdsa fdfasdsadasdas dasdasdasdasd fdfsaasdas HKKJDSKSDSJKND DS DSSDSDSSDSDSGFD GFDFDGDFGDFGDFBV HTRHTRHTRFDFDS"]
+    //coversa 1
+    let conversationOne = ["btableDataRachelAmanda","btableDataContactAmanda"]
+    
+    let tableDataLorem = ["Lorem", "Ipsum"]
+    let tableDataIpsum = ["Ipsum", "Lorem"]
+    
+    let chatRachelAmanda = ["Bla", "Pimba", "Mariola"]
+    let chatAmandaRachel = ["Hey Rach.. Are you going to class today?", "I'm not going today again… I was going to ask if I can copy your notes later… I have some issues at home…","Promise you won’t tell anyone about this…", "It's serious Rach... Can I count on you? I really need a friend at this moment.. I'd rather to tell you face to face but I'm not in the mood to go out..","Sorry, I fell asleep.Ok, well… My father got fired last month. He had been working in this company for 30 years.",""]
+    
+    
+    
     
     //let btableData = ["msg_1_1", "msg_1_2", "msg_1_3"]
     @IBOutlet weak var tableView: UITableView!
@@ -30,6 +39,7 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
         
         //Register custom cells
         //contacts
+        
         var nib = UINib(nibName: "ContactMessagesTVCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "Cell")
         
@@ -55,15 +65,22 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return btableData.count
+        return 6
+        
+    }
+    
+    func tableViewContact(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        
+        return chatAmandaRachel.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        if indexPath.row == 0 {
+        //Rachel Mensage
+        if indexPath.row < 3 {
             var cell:ContactMessagesCell!
             cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ContactMessagesCell
-            cell.messageLabel.text = btableData[indexPath.row]
+            cell.messageLabel.text = chatRachelAmanda[indexPath.row]
             cell.messageLabel.layer.cornerRadius = 8
             cell.messageLabel.layer.masksToBounds = true
             
@@ -73,9 +90,11 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
             return cell
             
         } else {
+            
+            //Contact Mensage
             var cell:RachelMessagesCell!
             cell = tableView.dequeueReusableCellWithIdentifier("RachelCell", forIndexPath: indexPath) as! RachelMessagesCell
-            cell.messageLabel.text = btableData[indexPath.row]
+            cell.messageLabel.text = chatAmandaRachel[indexPath.row - 3]
             cell.messageLabel.layer.cornerRadius = 8
             cell.messageLabel.layer.masksToBounds = true
             
