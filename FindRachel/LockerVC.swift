@@ -51,14 +51,10 @@ class LockerVC: UIViewController {
         
         
         var num = sender.tag
-        //println(num)
         var numAsString = "\(num)"
-        //println(numAsString)
         valueString = valueString.stringByAppendingString(numAsString)
         //println(valueString)
         
-        
-        println(numAsString)
         
         //MUDA IMAGEM E CONFERE SENHA
         if count(valueString) == 1 {
@@ -67,14 +63,11 @@ class LockerVC: UIViewController {
 
         } else if count(valueString) == 2 {
             passImageView.image = UIImage(named: "visor3")
-            //lockLabel.text = valueString
         } else if count(valueString) == 3 {
             passImageView.image = UIImage(named: "visor4")
-            //lockLabel.text = valueString
         } else if count(valueString) == 4 && valueString == code {
             valueString = ""
             passImageView.image = UIImage(named: "visor5")
-            
             var controller: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle:nil)
             self.presentViewController(controller, animated: true, completion: nil)
             
@@ -115,16 +108,5 @@ class LockerVC: UIViewController {
         
 
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+  
 }

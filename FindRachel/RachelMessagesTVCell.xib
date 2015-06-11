@@ -13,17 +13,17 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX1-eC-uPe">
-                        <rect key="frame" x="120" y="15" width="185" height="164"/>
+                        <rect key="frame" x="75" y="15" width="230" height="164"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="fX1-eC-uPe" firstAttribute="top" secondItem="cts-Cb-HXH" secondAttribute="top" constant="15" id="54T-CA-35H"/>
-                    <constraint firstItem="fX1-eC-uPe" firstAttribute="leading" secondItem="cts-Cb-HXH" secondAttribute="leading" constant="120" id="QLo-iC-PXy"/>
                     <constraint firstAttribute="trailing" secondItem="fX1-eC-uPe" secondAttribute="trailing" constant="15" id="Xxi-3W-eBx"/>
                     <constraint firstAttribute="bottom" secondItem="fX1-eC-uPe" secondAttribute="bottom" constant="14" id="h7o-ep-qgC"/>
+                    <constraint firstItem="fX1-eC-uPe" firstAttribute="leading" secondItem="cts-Cb-HXH" secondAttribute="leading" constant="75" id="sqS-V5-jZv"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

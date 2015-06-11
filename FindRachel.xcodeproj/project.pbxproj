@@ -20,8 +20,6 @@
 		42ABF9A01B0BAA0300AB933D /* FindRachelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */; };
 		6025AEB71B262A920051C7E3 /* RachelMessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */; };
 		6025AEBB1B262B6F0051C7E3 /* RachelMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */; };
-		60576F6B1B1E54CC0046B351 /* LabelTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60576F691B1E54CC0046B351 /* LabelTestViewController.swift */; };
-		60576F6C1B1E54CC0046B351 /* LabelTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60576F6A1B1E54CC0046B351 /* LabelTestViewController.xib */; };
 		60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0E81B13D32400691114 /* MessagesTVCell.xib */; };
 		60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0EE1B13D5C700691114 /* MessagesCell.swift */; };
 		60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */; };
@@ -94,8 +92,6 @@
 		42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRachelTests.swift; sourceTree = "<group>"; };
 		6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RachelMessagesTVCell.xib; sourceTree = "<group>"; };
 		6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RachelMessagesCell.swift; path = ../RachelMessagesCell.swift; sourceTree = "<group>"; };
-		60576F691B1E54CC0046B351 /* LabelTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTestViewController.swift; sourceTree = "<group>"; };
-		60576F6A1B1E54CC0046B351 /* LabelTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTestViewController.xib; sourceTree = "<group>"; };
 		60F4B0E81B13D32400691114 /* MessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTVCell.xib; sourceTree = "<group>"; };
 		60F4B0EE1B13D5C700691114 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
 		60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessageViewController.swift; sourceTree = "<group>"; };
@@ -223,8 +219,6 @@
 				60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */,
 				6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */,
 				6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */,
-				60576F691B1E54CC0046B351 /* LabelTestViewController.swift */,
-				60576F6A1B1E54CC0046B351 /* LabelTestViewController.xib */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
@@ -385,7 +379,6 @@
 				6025AEB71B262A920051C7E3 /* RachelMessagesTVCell.xib in Resources */,
 				42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */,
 				7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */,
-				60576F6C1B1E54CC0046B351 /* LabelTestViewController.xib in Resources */,
 				7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */,
 				7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */,
 				7D16DB771B18FF1800B02AE7 /* NotesView.xib in Resources */,
@@ -431,7 +424,6 @@
 				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
 				168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,
-				60576F6B1B1E54CC0046B351 /* LabelTestViewController.swift in Sources */,
 				C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */,
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
