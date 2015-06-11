@@ -20,10 +20,10 @@ class VideoVC: UIViewController {
 
         playVideo()
         //Velocidade do video
-        moviePlayer?.currentPlaybackRate = 10.0
+        moviePlayer?.currentPlaybackRate = 1.0
         
         //demora para da o play
-        delay(2){
+        delay(32){
         
         var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
         self.presentViewController(lockerVC, animated: true, completion: nil)
@@ -47,7 +47,7 @@ class VideoVC: UIViewController {
 
     func playVideo() {
         
-        let path = NSBundle.mainBundle().pathForResource("findrachelfinal", ofType: "mp4")
+        let path = NSBundle.mainBundle().pathForResource("Video_Rachel_eng", ofType: "mp4")
         let url = NSURL.fileURLWithPath(path!)
         moviePlayer = MPMoviePlayerController(contentURL: url)
         

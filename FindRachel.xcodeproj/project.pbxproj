@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168FD99C1B1E1FC900BFC884 /* findrachelfinal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168FD99B1B1E1FC900BFC884 /* findrachelfinal.mp4 */; };
+		168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */; };
+		168107441B296EB900352BDE /* Video_Rachel_pt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */; };
+		168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168107451B2981EF00352BDE /* UIColorExtension.swift */; };
 		16AA3A4B1B1FA67A007507C7 /* LockerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */; };
 		16AA3A4D1B1FAB7B007507C7 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */; };
 		16AA3A4F1B1FABA0007507C7 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */; };
@@ -75,7 +77,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		168FD99B1B1E1FC900BFC884 /* findrachelfinal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = findrachelfinal.mp4; sourceTree = "<group>"; };
+		168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video_Rachel_eng.mp4; sourceTree = "<group>"; };
+		168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video_Rachel_pt.mp4; sourceTree = "<group>"; };
+		168107451B2981EF00352BDE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerTest.swift; sourceTree = "<group>"; };
 		16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -180,7 +184,8 @@
 		42ABF9871B0BAA0300AB933D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				168FD99B1B1E1FC900BFC884 /* findrachelfinal.mp4 */,
+				168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */,
+				168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */,
 				427324D31B0E65F2008F1155 /* Images.xcassets */,
 				42ABF9881B0BAA0300AB933D /* Info.plist */,
 			);
@@ -207,6 +212,7 @@
 		60F4B0F81B15058900691114 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				168107451B2981EF00352BDE /* UIColorExtension.swift */,
 				7DBFEB4A1B0BB899008F189E /* Messages.swift */,
 				7DBFEB4B1B0BB899008F189E /* Messages.xib */,
 				60F4B0EE1B13D5C700691114 /* MessagesCell.swift */,
@@ -364,10 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B2F39E1B196728004F48FF /* FinishedVC.xib in Resources */,
+				168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */,
 				427324D41B0E65F2008F1155 /* Images.xcassets in Resources */,
 				7D16DB661B17AEF400B02AE7 /* CameraRoll.xib in Resources */,
+				168107441B296EB900352BDE /* Video_Rachel_pt.mp4 in Resources */,
 				C9B2F39D1B196728004F48FF /* BlockedVC.xib in Resources */,
-				168FD99C1B1E1FC900BFC884 /* findrachelfinal.mp4 in Resources */,
 				C9B2F39C1B196728004F48FF /* VideoVC.xib in Resources */,
 				7DBFEB3D1B0BADB6008F189E /* Locker.xib in Resources */,
 				7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */,
@@ -422,6 +429,7 @@
 				7DCF99A41B13BF5300B0A117 /* PhotosVC.swift in Sources */,
 				C9B2F3A11B196728004F48FF /* FinishedVC.swift in Sources */,
 				60F4B0F71B14F98300691114 /* ContactMessagesCell.swift in Sources */,
+				168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,
 				60576F6B1B1E54CC0046B351 /* LabelTestViewController.swift in Sources */,
 				C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */,

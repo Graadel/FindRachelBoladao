@@ -12,7 +12,7 @@ import SpriteKit
 class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //UITableViewDataSource
     
-    let tableData = ["Ray Wenderlich", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
+    let tableData = ["Lisa", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
     @IBOutlet weak var tableView: UITableView!
     @IBAction func backButton(sender: AnyObject) {
         var controller: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle:NSBundle.mainBundle())
