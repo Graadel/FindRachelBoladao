@@ -20,7 +20,7 @@ class Notes2ViewController: UIViewController, UITableViewDelegate, UITableViewDa
   
     @IBOutlet var tableView: UITableView!
     
-    var tableData = ["All you need is love, love...","I just want to get this off my chest:\n \nThings are really strange...\nI’m losing all my friends.\nEverybody is mad at me.\nAnd I can't understand why. I should be mad at them, not the opposite.\nI feel that something really bad is about to happen...\nI can feel this…..","I've never felt this way...", "Love you, xoxo Chloe...", "I make poems...", "Buy eggs", "Download: Gone Girl "]
+    var tableData = ["A","I just want to get this off my chest:\n \nThings are really strange.\nI’m losing all my friends.\nEverybody is mad at me.\nAnd I can't understand why. I should be mad at them, not the opposite.\nI feel that something really bad is about to happen...\nI can feel this...\n \n17/10","Buy:\n \nEggs\nWatermelon\nOrange Juice\nBread\nBacon\nGloves\nRope\nTape\nKnife\n \nI think that will be enough...\n \n18/10", "D", "F", "G", "H"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

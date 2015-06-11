@@ -75,7 +75,7 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
             
         } else if indexPath.row == 1 {
             
-            cell.imageCellGallery.image = UIImage(named: "ReceivedFiles1")
+            cell.imageCellGallery.image = UIImage(named: "ReceivedFiles")
         }
             
   
