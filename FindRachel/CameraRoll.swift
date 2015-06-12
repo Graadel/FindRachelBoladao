@@ -32,8 +32,12 @@ class CameraRoll: UIViewController, UICollectionViewDataSource, UICollectionView
         Array=["r1","r2","arvore","r3","coqueiro","Pato1","Japones","r4","Kat","Mar_areia","r5","Mar","noite","Sapatilha","r6","r7","chandelier","ceu","casa","sinal","sunday","Visual","r8","Praia","pizza","Pato2","Oceano","Lounge","r9"]
         
         
+        
+        
         self.collectionView.registerNib(UINib(nibName:"IconCellCameraRoll", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
         
+        let size = CGFloat((UIApplication.sharedApplication().windows.first!.size.width/3)-2);
+        (self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout).itemSize = CGSizeMake(size, size);
         
     }
     
@@ -77,9 +81,15 @@ class CameraRoll: UIViewController, UICollectionViewDataSource, UICollectionView
         
         var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! IconCellCameraRoll
         
-        cell.imageCellCameraRoll.image = UIImage(named: Array[indexPath.row])
-        cell.imageCellCameraRoll.contentMode = UIViewContentMode.ScaleAspectFill
-        cell.imageCellCameraRoll.clipsToBounds = true
+        let imageView = UIImageView(frame: CGRectMake(0, 0, cell.frame.width, cell.frame.height));
+        imageView.image = UIImage(named: Array[indexPath.row]);
+        imageView.contentMode = UIViewContentMode.ScaleAspectFill;
+        imageView.clipsToBounds = true;
+        cell.contentView.addSubview(imageView);
+        
+        //cell.imageCellCameraRoll.image = UIImage(named: Array[indexPath.row])
+        //cell.imageCellCameraRoll.contentMode = UIViewContentMode.ScaleAspectFill
+        //cell.imageCellCameraRoll.clipsToBounds = true
         
         return cell
         

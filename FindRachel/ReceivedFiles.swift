@@ -40,7 +40,8 @@ class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionV
         
         self.collectionView.registerNib(UINib(nibName:"IconCellReceivedFiles", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
         
-        
+        let size = CGFloat((UIApplication.sharedApplication().windows.first!.size.width/3)-2);
+        (self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout).itemSize = CGSizeMake(size, size);
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,10 +65,16 @@ class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionV
         
         var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! IconCellReceivedFiles
         
-        cell.imageCellReceived.image = UIImage(named: Array[indexPath.row])
-        cell.imageCellReceived.image = UIImage(named: Array[indexPath.row])
-        cell.imageCellReceived.contentMode = UIViewContentMode.ScaleAspectFill
-        cell.imageCellReceived.clipsToBounds = true
+        let imageView = UIImageView(frame: CGRectMake(0, 0, cell.frame.width, cell.frame.height));
+        imageView.image = UIImage(named: Array[indexPath.row]);
+        imageView.contentMode = UIViewContentMode.ScaleAspectFill;
+        imageView.clipsToBounds = true;
+        cell.contentView.addSubview(imageView);
+        
+//        cell.imageCellReceived.image = UIImage(named: Array[indexPath.row])
+//        cell.imageCellReceived.image = UIImage(named: Array[indexPath.row])
+//        cell.imageCellReceived.contentMode = UIViewContentMode.ScaleAspectFill
+//        cell.imageCellReceived.clipsToBounds = true
         
         return cell
         

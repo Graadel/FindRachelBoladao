@@ -8,9 +8,7 @@
 
 import UIKit
 
-class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-    
-    @IBOutlet var collectionView: UICollectionView!
+class GalleryVC: UIViewController{
 
     @IBAction func backButton(sender: AnyObject) {
         
@@ -22,34 +20,44 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         super.viewDidLoad()
              self.view.backgroundColor = UIColor.whiteColor()
         
+        let tamanho = UIApplication.sharedApplication().windows.first!.size;
+        let altura = tamanho.height*0.12;
+        
+        let tamBotone = tamanho.width*0.4
+        
+        let cameraBotone = UIButton(frame: CGRectMake(0.25*tamanho.width-tamBotone*0.5, altura, tamBotone, tamBotone));
+        cameraBotone.setImage(UIImage(named: "CameraRoll"), forState: UIControlState.Normal);
+        cameraBotone.addTarget(nil, action: "irPraCameraRoll", forControlEvents: UIControlEvents.TouchUpInside);
+        self.view.addSubview(cameraBotone);
+        
+        let receivedBotone = UIButton(frame: CGRectMake(0.75*tamanho.width-tamBotone*0.5, altura, tamBotone, tamBotone));
+        receivedBotone.setImage(UIImage(named: "ReceivedFiles"), forState: UIControlState.Normal);
+        receivedBotone.addTarget(nil, action: "irPraReceivedFiles", forControlEvents: UIControlEvents.TouchUpInside);
+        self.view.addSubview(receivedBotone);
+        
+        
         // Do any additional setup after loading the view.
         
         
-        self.collectionView.registerNib(UINib(nibName:"IconCellGallery", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
+    }
+    
+    func irPraCameraRoll(){
+        var controller: CameraRoll = CameraRoll(nibName:"CameraRoll", bundle:NSBundle.mainBundle())
         
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
+    func irPraReceivedFiles(){
+        var controller: ReceivedFiles = ReceivedFiles(nibName:"ReceivedFiles", bundle:NSBundle.mainBundle())
+        
+        self.presentViewController(controller, animated: true, completion: nil)
     }
     
     //
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        
-        //func q faz a tela de msg abrir dps do locker somente qnd o jogador abre o jogo pela primeira vez
-        
-        //        if NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce") {
-        //
-        //            // app already launched
-        //
-        //        } else {
-        //
-        //            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
-        //            NSUserDefaults.standardUserDefaults().synchronize()
-        //
-        //            var controller: Messages = Messages(nibName:"Messages", bundle:NSBundle.mainBundle())
-        //
-        //            self.presentViewController(controller, animated: true, completion: nil)
-        //
-        //        }
+  
     }
     
     override func didReceiveMemoryWarning() {
@@ -59,76 +67,4 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
     
     // MARK: - Collection View DataSource
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        return 2
-    }
-    
-    // essa func adiciona imagens aos icons
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        
-        var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! IconCellGallery
-        
-        if indexPath.row == 0 {
-            
-            cell.imageCellGallery.image = UIImage(named: "CameraRoll")
-            
-        } else if indexPath.row == 1 {
-            
-            cell.imageCellGallery.image = UIImage(named: "ReceivedFiles")
-        }
-            
-  
-        
-        return cell
-    }
-    
-    // MARK: - Collection View Delegate
-    
-    
-    //essa func faz c que os icons clicados abram a viewcontroller desejada (ex: messages, gallery..)
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
-        
-    {
-        if indexPath.row == 0 {
-            
-            var controller = CameraRoll(nibName:"CameraRoll", bundle:NSBundle.mainBundle())
-            
-            self.presentViewController(controller, animated: true, completion: nil)
-            
-        } else if indexPath.row == 1 {
-            
-            var controller = ReceivedFiles(nibName:"ReceivedFiles", bundle:NSBundle.mainBundle())
-            
-            self.presentViewController(controller, animated: true, completion: nil)
-            
-        }
-        
-        
-        println(indexPath.row)
-        
-    }
-    
-    
-    /*
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
-    
 }
-
-    
-//
-//  /*  // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        // Get the new view controller using segue.destinationViewController.
-//        // Pass the selected object to the new view controller.
-//    }
-//*/
-//
-

@@ -14,6 +14,7 @@ class IconCellCameraRoll: UICollectionViewCell, UIScrollViewDelegate {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
     
