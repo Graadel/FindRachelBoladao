@@ -10,16 +10,23 @@ import UIKit
 
 class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet var collectionView: UICollectionView!
+    
+    var imageView: UIImageView!
     var defaults = NSUserDefaults.standardUserDefaults()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu.png")!)
-
-
         
-    self.collectionView.registerNib(UINib(nibName:"IconCellMainScreen", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
 
+        imageView = UIImageView(image: UIImage(named: "Menu.png"))
+        
+        imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
+        imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        
+        self.collectionView.registerNib(UINib(nibName:"IconCellMainScreen", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
+        
+        view.addSubview(imageView)
+        view.addSubview(collectionView)
     }
     
     //

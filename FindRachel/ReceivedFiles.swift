@@ -9,6 +9,8 @@
 import UIKit
 
 class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+
 
     @IBOutlet var collectionView: UICollectionView!
     
@@ -18,13 +20,18 @@ class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionV
     }
    
     
+    
     var imageView = UIImageView()
     
     var Array: [String] = []
     
+    var imageIndex:NSInteger = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         
         // Do any additional setup after loading the view.
              self.view.backgroundColor = UIColor.whiteColor()

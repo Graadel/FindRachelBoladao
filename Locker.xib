@@ -4,8 +4,18 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Locker" customModule="FindRachel" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LockerVC" customModule="FindRachel" customModuleProvider="target">
             <connections>
+                <outlet property="buttonEight" destination="kFE-mQ-AXo" id="Mpc-u6-Nmm"/>
+                <outlet property="buttonFive" destination="p7g-kJ-5eP" id="TDL-8j-ObE"/>
+                <outlet property="buttonFour" destination="K2A-fK-ssW" id="53r-be-VtB"/>
+                <outlet property="buttonNine" destination="tuU-Y4-Irv" id="CCT-9R-hFP"/>
+                <outlet property="buttonOne" destination="6kf-AW-WZd" id="vKj-rf-Y4O"/>
+                <outlet property="buttonSeven" destination="lGU-Zf-0xN" id="qoJ-0Q-4gW"/>
+                <outlet property="buttonSix" destination="Icf-Tn-ziO" id="MRk-RE-69q"/>
+                <outlet property="buttonThree" destination="iiW-NC-p6H" id="BAW-kk-Qx5"/>
+                <outlet property="buttonTwo" destination="2AI-bm-HJO" id="Lyc-9u-56w"/>
+                <outlet property="buttonZero" destination="wxN-vn-BJC" id="vZO-U2-g68"/>
                 <outlet property="lockLabel" destination="7yZ-cP-jO9" id="8A1-6x-kTN"/>
                 <outlet property="passImageView" destination="GkY-sj-hCx" id="ey6-HJ-W6m"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -68,7 +78,7 @@
                         <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="uvk-nf-UOB"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-AW-WZd" userLabel="Button1" customClass="SpringButton" customModule="Spring">
+                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-AW-WZd" userLabel="Button1">
                     <rect key="frame" x="175" y="174" width="69" height="69"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="69" id="GZy-gK-av8"/>
@@ -94,19 +104,6 @@
                     </state>
                     <connections>
                         <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="Ohy-6O-pdb"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFE-mQ-AXo" userLabel="Button8">
-                    <rect key="frame" x="266" y="356" width="69" height="69"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="69" id="ObH-3u-vHz"/>
-                        <constraint firstAttribute="width" constant="69" id="TDI-6v-wsw"/>
-                    </constraints>
-                    <state key="normal" image="8">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="OmC-He-qMX"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="9" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuU-Y4-Irv" userLabel="Button9">
@@ -142,16 +139,6 @@
                         <constraint firstAttribute="height" constant="61" id="mCX-bq-rQA"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-cP-jO9" userLabel="Right/Wrong">
-                    <rect key="frame" x="230" y="119" width="141" height="27"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="27" id="1Vu-Z1-Fow"/>
-                        <constraint firstAttribute="width" constant="141" id="3Un-GC-FEE"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="34"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icf-Tn-ziO" userLabel="Button6">
                     <rect key="frame" x="357" y="265" width="69" height="69"/>
                     <constraints>
@@ -172,9 +159,32 @@
                         <constraint firstAttribute="height" constant="24" id="wsj-6o-vvZ"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-cP-jO9" userLabel="Right/Wrong">
+                    <rect key="frame" x="230" y="119" width="141" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="1Vu-Z1-Fow"/>
+                        <constraint firstAttribute="width" constant="141" id="3Un-GC-FEE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFE-mQ-AXo" userLabel="Button8">
+                    <rect key="frame" x="266" y="356" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="ObH-3u-vHz"/>
+                        <constraint firstAttribute="width" constant="69" id="TDI-6v-wsw"/>
+                    </constraints>
+                    <state key="normal" image="8">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="OmC-He-qMX"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>

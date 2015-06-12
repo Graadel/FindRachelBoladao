@@ -10,23 +10,56 @@ import UIKit
 
 class LockerVC: UIViewController {
     
-    
-
     var defaults = NSUserDefaults.standardUserDefaults()
+    var imageViewLocker: UIImageView!
     var code: String!
     var valueString = ""
+    var imageView: UIImageView!
     @IBOutlet weak var lockLabel: UILabel!
     @IBOutlet weak var passImageView: UIImageView!
     
+    @IBOutlet weak var buttonOne: UIButton!
     
+    @IBOutlet weak var buttonTwo: UIButton!
+    @IBOutlet weak var buttonThree: UIButton!
+    @IBOutlet weak var buttonFour: UIButton!
+    @IBOutlet weak var buttonFive: UIButton!
+    
+    @IBOutlet weak var buttonSix: UIButton!
+    @IBOutlet weak var buttonSeven: UIButton!
+    
+    @IBOutlet weak var buttonEight: UIButton!
+
+    @IBOutlet weak var buttonNine: UIButton!
+    @IBOutlet weak var buttonZero: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu.png")!)
         
-    
+        imageView = UIImageView(image: UIImage(named:"Menu.png"))
+        
+            imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
+            imageView.contentMode = UIViewContentMode.ScaleAspectFit
+            
+            view.addSubview(imageView)
+            view.addSubview(lockLabel)
+            view.addSubview(passImageView)
+        view.addSubview(buttonOne)
+        view.addSubview(buttonTwo)
+        view.addSubview(buttonThree)
+        view.addSubview(buttonFour)
+        view.addSubview(buttonFive)
+        view.addSubview(buttonSix)
+        view.addSubview(buttonSeven)
+        view.addSubview(buttonEight)
+        view.addSubview(buttonNine)
+        view.addSubview(buttonZero)
+        
+        
+            
+        
         passImageView.image = UIImage(named: "visor1")
-        // Do any additional setup after loading the view.
+        
+        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -74,7 +107,7 @@ class LockerVC: UIViewController {
         } else {
             println(code)
             valueString = ""
-            lockLabel.text = "errado"
+            lockLabel.text = "wrong"
             passImageView.image = UIImage(named: "visor1")
         }
     

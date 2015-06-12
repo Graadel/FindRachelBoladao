@@ -23,7 +23,7 @@ class ContentViewController: UIViewController {
         super.viewDidLoad()
         
 
-            self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu.png")!)
+
         self.imageView.image = UIImage(named: self.imageFile)
         self.titleLabel.text = self.titleText
     }

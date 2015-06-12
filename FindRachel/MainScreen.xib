@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -32,27 +34,15 @@
                         <outlet property="delegate" destination="-1" id="TO2-py-gik"/>
                     </connections>
                 </collectionView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barra" translatesAutoresizingMaskIntoConstraints="NO" id="a7a-dw-kwR">
-                    <rect key="frame" x="0.0" y="519" width="611" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="91" id="W6P-m7-yxg"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="a7a-dw-kwR" secondAttribute="bottom" constant="-10" id="2jT-6z-5av"/>
                 <constraint firstAttribute="trailing" secondItem="0UG-sp-ZDB" secondAttribute="trailing" id="8Q5-lj-MQ5"/>
                 <constraint firstItem="0UG-sp-ZDB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="9Dw-IY-OaV"/>
                 <constraint firstAttribute="bottom" secondItem="0UG-sp-ZDB" secondAttribute="bottom" id="WLS-m5-U0Y"/>
-                <constraint firstItem="a7a-dw-kwR" firstAttribute="leading" secondItem="0UG-sp-ZDB" secondAttribute="leading" id="cec-KV-gp2"/>
-                <constraint firstAttribute="trailing" secondItem="a7a-dw-kwR" secondAttribute="trailing" constant="-11" id="tut-FQ-P3T"/>
                 <constraint firstItem="0UG-sp-ZDB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yzX-yy-Q37"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
-    <resources>
-        <image name="barra" width="641" height="156"/>
-    </resources>
 </document>
