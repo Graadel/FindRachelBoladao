@@ -20,6 +20,9 @@
 		42ABF9A01B0BAA0300AB933D /* FindRachelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */; };
 		6025AEB71B262A920051C7E3 /* RachelMessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */; };
 		6025AEBB1B262B6F0051C7E3 /* RachelMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */; };
+		6085B9671B2B5A1100A86981 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B9661B2B5A1100A86981 /* Person.swift */; };
+		6085B9691B2B5A8400A86981 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B9681B2B5A8400A86981 /* Message.swift */; };
+		6085B96B1B2B5AA800A86981 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B96A1B2B5AA800A86981 /* Talk.swift */; };
 		60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F4B0E81B13D32400691114 /* MessagesTVCell.xib */; };
 		60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0EE1B13D5C700691114 /* MessagesCell.swift */; };
 		60F4B0F21B14F4E500691114 /* ContactMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */; };
@@ -92,6 +95,9 @@
 		42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRachelTests.swift; sourceTree = "<group>"; };
 		6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RachelMessagesTVCell.xib; sourceTree = "<group>"; };
 		6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RachelMessagesCell.swift; path = ../RachelMessagesCell.swift; sourceTree = "<group>"; };
+		6085B9661B2B5A1100A86981 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = MessagesDAO/Person.swift; sourceTree = "<group>"; };
+		6085B9681B2B5A8400A86981 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6085B96A1B2B5AA800A86981 /* Talk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
 		60F4B0E81B13D32400691114 /* MessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTVCell.xib; sourceTree = "<group>"; };
 		60F4B0EE1B13D5C700691114 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
 		60F4B0F01B14F4E500691114 /* ContactMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessageViewController.swift; sourceTree = "<group>"; };
@@ -205,9 +211,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6085B96C1B2B5AB900A86981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6085B9661B2B5A1100A86981 /* Person.swift */,
+				6085B9681B2B5A8400A86981 /* Message.swift */,
+				6085B96A1B2B5AA800A86981 /* Talk.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		60F4B0F81B15058900691114 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				6085B96C1B2B5AB900A86981 /* Model */,
 				168107451B2981EF00352BDE /* UIColorExtension.swift */,
 				7DBFEB4A1B0BB899008F189E /* Messages.swift */,
 				7DBFEB4B1B0BB899008F189E /* Messages.xib */,
@@ -411,6 +428,7 @@
 				7D70B99C1B0E677B00BC1FB3 /* MainScreenVC.swift in Sources */,
 				7D16DB761B18FF1800B02AE7 /* NotesVC.swift in Sources */,
 				60F4B0EF1B13D5C700691114 /* MessagesCell.swift in Sources */,
+				6085B9691B2B5A8400A86981 /* Message.swift in Sources */,
 				7DAE7B601B163C68002B6D4A /* NotesTableViewCell.swift in Sources */,
 				42ABF98C1B0BAA0300AB933D /* ViewController.swift in Sources */,
 				7D3D46431B0CF809004FC699 /* GalleryVC.swift in Sources */,
@@ -425,9 +443,11 @@
 				168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,
 				C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */,
+				6085B9671B2B5A1100A86981 /* Person.swift in Sources */,
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
 				C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */,
+				6085B96B1B2B5AA800A86981 /* Talk.swift in Sources */,
 				6025AEBB1B262B6F0051C7E3 /* RachelMessagesCell.swift in Sources */,
 				16AA3A4F1B1FABA0007507C7 /* ContentViewController.swift in Sources */,
 				7DAE7B5B1B16342B002B6D4A /* Notes2ViewController.swift in Sources */,
