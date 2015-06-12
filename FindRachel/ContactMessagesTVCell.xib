@@ -12,22 +12,23 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LnV-5v-whF" id="r9a-as-bDz">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvC-Uf-dwB">
-                        <rect key="frame" x="15" y="15" width="230" height="164"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RME-Zy-43e">
+                        <rect key="frame" x="15" y="8" width="230" height="178"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="JvC-Uf-dwB" secondAttribute="trailing" constant="75" id="A52-pz-2kJ"/>
-                    <constraint firstAttribute="bottom" secondItem="JvC-Uf-dwB" secondAttribute="bottom" constant="14" id="EIh-GF-wKp"/>
-                    <constraint firstItem="JvC-Uf-dwB" firstAttribute="leading" secondItem="r9a-as-bDz" secondAttribute="leading" constant="15" id="eoN-7A-y2X"/>
-                    <constraint firstItem="JvC-Uf-dwB" firstAttribute="top" secondItem="r9a-as-bDz" secondAttribute="top" constant="15" id="ywY-c4-WcO"/>
+                    <constraint firstItem="RME-Zy-43e" firstAttribute="leading" secondItem="r9a-as-bDz" secondAttribute="leading" constant="15" id="9Oq-av-OxI"/>
+                    <constraint firstAttribute="bottom" secondItem="RME-Zy-43e" secondAttribute="bottom" constant="8" id="CI0-o7-fDB"/>
+                    <constraint firstItem="RME-Zy-43e" firstAttribute="top" secondItem="r9a-as-bDz" secondAttribute="top" constant="8" id="XAk-MT-KJA"/>
+                    <constraint firstAttribute="trailing" secondItem="RME-Zy-43e" secondAttribute="trailing" constant="75" id="zMy-Sc-oR2"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="messageLabel" destination="JvC-Uf-dwB" id="pdK-nK-jZ8"/>
+                <outlet property="messageLabel" destination="RME-Zy-43e" id="GFa-To-HqE"/>
             </connections>
             <point key="canvasLocation" x="261" y="433"/>
         </tableViewCell>

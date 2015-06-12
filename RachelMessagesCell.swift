@@ -10,7 +10,8 @@ import UIKit
 
 class RachelMessagesCell: UITableViewCell {
 
-    @IBOutlet var messageLabel: UILabel!
+    @IBOutlet var messageLabel: UITextView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

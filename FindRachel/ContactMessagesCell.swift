@@ -10,11 +10,8 @@ import UIKit
 
 class ContactMessagesCell: UITableViewCell {
 
-    
-    //@IBOutlet var messageImageView: UIImageView!
-    @IBOutlet var messageLabel: UILabel!
-    
-    @IBOutlet weak var messageLabelR: UILabel!
+    @IBOutlet var messageLabel: UITextView!
+        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
