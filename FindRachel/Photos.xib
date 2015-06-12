@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Photos" customModule="FindRachel" customModuleProvider="target">
@@ -14,8 +14,12 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-Qx-XYt">
-                    <rect key="frame" x="0.0" y="0.0" width="40" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-Qx-XYt">
+                    <rect key="frame" x="20" y="15" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="N9C-Rp-em3"/>
+                        <constraint firstAttribute="width" constant="40" id="qKQ-vr-ZBS"/>
+                    </constraints>
                     <state key="normal" title="Close">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -25,7 +29,23 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="GAt-Qx-XYt" secondAttribute="trailing" constant="540" id="6g3-Ue-iqe"/>
+                <constraint firstAttribute="centerY" secondItem="GAt-Qx-XYt" secondAttribute="centerY" constant="270" id="F4T-BA-UcS"/>
+                <constraint firstItem="GAt-Qx-XYt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="NYy-A5-69S"/>
+                <constraint firstItem="GAt-Qx-XYt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="fb3-Ax-W7F"/>
+                <constraint firstAttribute="centerX" secondItem="GAt-Qx-XYt" secondAttribute="centerX" constant="260" id="hcQ-Zo-AE3"/>
+                <constraint firstAttribute="bottom" secondItem="GAt-Qx-XYt" secondAttribute="bottom" constant="555" id="ioz-1J-6Wn"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6g3-Ue-iqe"/>
+                    <exclude reference="F4T-BA-UcS"/>
+                    <exclude reference="hcQ-Zo-AE3"/>
+                    <exclude reference="ioz-1J-6Wn"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="373" y="250"/>
         </view>
     </objects>

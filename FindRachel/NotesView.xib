@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotesVC" customModule="FindRachel" customModuleProvider="target">
@@ -16,27 +16,21 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1s-X6-3Pu">
-                    <rect key="frame" x="20" y="25" width="46" height="33"/>
+                    <rect key="frame" x="20" y="15" width="46" height="33"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="33" id="IFP-qi-ALB"/>
-                        <constraint firstAttribute="width" constant="39" id="cyI-Dy-4BY"/>
+                        <constraint firstAttribute="height" constant="33" id="fKq-tA-6Ty"/>
+                        <constraint firstAttribute="width" constant="46" id="vTs-M6-L6X"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="IFP-qi-ALB"/>
-                            <exclude reference="cyI-Dy-4BY"/>
-                        </mask>
-                    </variation>
                     <connections>
                         <action selector="backButton:" destination="-1" eventType="touchUpInside" id="szC-mo-raB"/>
                     </connections>
                 </button>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="lo" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XHn-AG-V1L">
-                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="lo" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XHn-AG-V1L">
+                    <rect key="frame" x="0.0" y="52" width="600" height="540"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="540" id="h7w-9f-0Z2"/>
@@ -50,20 +44,29 @@
             <constraints>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="92r-mE-1tK"/>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="g1s-X6-3Pu" secondAttribute="trailing" constant="-66" id="D69-5F-dAc"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="HGm-XE-pMg"/>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="g1s-X6-3Pu" secondAttribute="bottom" constant="1" id="QUg-Yo-4yd"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="Qp0-91-Ywb"/>
                 <constraint firstAttribute="bottom" secondItem="XHn-AG-V1L" secondAttribute="bottom" id="RBE-01-so5"/>
                 <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="XHn-AG-V1L" secondAttribute="leading" constant="20" id="Xc7-9c-zwh"/>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="adA-Qc-YV6"/>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="g1s-X6-3Pu" secondAttribute="trailing" constant="-66" id="ag1-g1-fpk"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="jdW-TB-fpU"/>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="g1s-X6-3Pu" secondAttribute="bottom" constant="2" id="keL-1g-jeS"/>
                 <constraint firstAttribute="trailing" secondItem="XHn-AG-V1L" secondAttribute="trailing" id="l2c-44-Khm"/>
                 <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="XHn-AG-V1L" secondAttribute="leading" constant="19" id="mg7-dz-Stf"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="tkZ-Do-EMO"/>
             </constraints>
             <variation key="default">
                 <mask key="constraints">
+                    <exclude reference="HGm-XE-pMg"/>
+                    <exclude reference="Xc7-9c-zwh"/>
                     <exclude reference="mg7-dz-Stf"/>
+                    <exclude reference="tkZ-Do-EMO"/>
+                    <exclude reference="D69-5F-dAc"/>
                     <exclude reference="QUg-Yo-4yd"/>
                     <exclude reference="ag1-g1-fpk"/>
+                    <exclude reference="keL-1g-jeS"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="284" y="257"/>

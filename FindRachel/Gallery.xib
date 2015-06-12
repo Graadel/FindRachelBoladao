@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Gallery" customModule="FindRachel" customModuleProvider="target">
@@ -16,7 +16,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSC-BX-jGc">
-                    <rect key="frame" x="20" y="25" width="46" height="33"/>
+                    <rect key="frame" x="20" y="15" width="46" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="hTj-q8-SmK"/>
+                        <constraint firstAttribute="height" constant="33" id="pW2-oH-CHP"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -28,7 +32,7 @@
                         <action selector="backButton:" destination="-1" eventType="touchUpInside" id="4Q3-7k-B8R"/>
                     </connections>
                 </button>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Qbl-zW-jSM">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Qbl-zW-jSM">
                     <rect key="frame" x="0.0" y="60" width="600" height="540"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="80" id="oA5-MK-dMs">
@@ -48,13 +52,8 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Qbl-zW-jSM" firstAttribute="top" secondItem="NSC-BX-jGc" secondAttribute="bottom" constant="2" id="BOk-wW-3Kd"/>
-                <constraint firstAttribute="bottom" secondItem="Qbl-zW-jSM" secondAttribute="bottom" id="HPF-37-hBo"/>
-                <constraint firstAttribute="trailing" secondItem="Qbl-zW-jSM" secondAttribute="trailing" id="Ibl-Nb-ZmV"/>
-                <constraint firstItem="Qbl-zW-jSM" firstAttribute="leading" secondItem="NSC-BX-jGc" secondAttribute="trailing" constant="-66" id="WyP-6g-iUa"/>
-                <constraint firstItem="Qbl-zW-jSM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zgq-5G-sTI"/>
-                <constraint firstItem="Qbl-zW-jSM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="rid-5C-Qrp"/>
-                <constraint firstItem="Qbl-zW-jSM" firstAttribute="leading" secondItem="NSC-BX-jGc" secondAttribute="leading" constant="-20" id="sVD-ni-RGs"/>
+                <constraint firstItem="NSC-BX-jGc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="qF2-A8-taj"/>
+                <constraint firstItem="NSC-BX-jGc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="weE-iu-AbQ"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="220" y="293"/>

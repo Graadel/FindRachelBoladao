@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Notes2ViewController" customModule="FindRachel" customModuleProvider="target">
@@ -16,7 +16,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="095-s9-Gvz">
-                    <rect key="frame" x="20" y="25" width="46" height="33"/>
+                    <rect key="frame" x="20" y="15" width="46" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="VCx-tJ-W0Y"/>
+                        <constraint firstAttribute="width" constant="46" id="XTE-bg-cVZ"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,9 +46,18 @@
                 <constraint firstAttribute="trailing" secondItem="q5M-AP-obK" secondAttribute="trailing" id="Pva-EK-8Tj"/>
                 <constraint firstItem="q5M-AP-obK" firstAttribute="leading" secondItem="095-s9-Gvz" secondAttribute="leading" constant="-20" id="jrb-aA-TlU"/>
                 <constraint firstItem="q5M-AP-obK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="ryd-mM-Iv2"/>
+                <constraint firstItem="095-s9-Gvz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="smr-ir-HEv"/>
                 <constraint firstAttribute="bottom" secondItem="q5M-AP-obK" secondAttribute="bottom" id="snh-DL-hHG"/>
+                <constraint firstItem="095-s9-Gvz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="tpL-ON-HYI"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6cu-uh-dbQ"/>
+                    <exclude reference="7Wg-HF-tag"/>
+                    <exclude reference="jrb-aA-TlU"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraRoll" customModule="FindRachel" customModuleProvider="target">
@@ -34,7 +34,11 @@
                     </connections>
                 </collectionView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFe-ps-jer">
-                    <rect key="frame" x="20" y="25" width="46" height="33"/>
+                    <rect key="frame" x="20" y="15" width="46" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="W0p-aG-rnG"/>
+                        <constraint firstAttribute="width" constant="46" id="fmZ-WV-ila"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,7 +48,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera Roll" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQE-zD-Tot">
-                    <rect key="frame" x="482" y="32" width="98" height="21"/>
+                    <rect key="frame" x="482" y="32.5" width="98" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -54,12 +58,11 @@
             <constraints>
                 <constraint firstItem="GaX-hR-eiC" firstAttribute="trailing" secondItem="hQE-zD-Tot" secondAttribute="trailing" constant="20" id="9cl-Ny-mCZ"/>
                 <constraint firstItem="hQE-zD-Tot" firstAttribute="leading" secondItem="GaX-hR-eiC" secondAttribute="trailing" constant="-118" id="Bjm-qF-a0E"/>
+                <constraint firstItem="HFe-ps-jer" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="CxN-85-iUG"/>
+                <constraint firstItem="HFe-ps-jer" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="MOX-Dk-WvN"/>
                 <constraint firstItem="GaX-hR-eiC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="Q6z-KL-Rd7"/>
-                <constraint firstItem="GaX-hR-eiC" firstAttribute="top" secondItem="HFe-ps-jer" secondAttribute="bottom" constant="2" id="RSV-iy-eaO"/>
-                <constraint firstItem="GaX-hR-eiC" firstAttribute="leading" secondItem="HFe-ps-jer" secondAttribute="leading" constant="-20" id="V1U-Ai-Wfj"/>
                 <constraint firstItem="GaX-hR-eiC" firstAttribute="top" secondItem="hQE-zD-Tot" secondAttribute="bottom" constant="7" id="YMq-vT-ZbE"/>
                 <constraint firstAttribute="bottom" secondItem="GaX-hR-eiC" secondAttribute="bottom" id="b1P-he-w16"/>
-                <constraint firstItem="GaX-hR-eiC" firstAttribute="leading" secondItem="HFe-ps-jer" secondAttribute="trailing" constant="-66" id="blU-8l-5qe"/>
                 <constraint firstAttribute="trailing" secondItem="GaX-hR-eiC" secondAttribute="trailing" id="ibA-MG-wxn"/>
                 <constraint firstItem="GaX-hR-eiC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jRp-Ie-DaX"/>
             </constraints>
