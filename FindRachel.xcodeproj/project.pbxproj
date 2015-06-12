@@ -450,11 +450,8 @@
 				168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,
 				C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */,
-<<<<<<< HEAD
 				6085B9671B2B5A1100A86981 /* Person.swift in Sources */,
-=======
 				42F8B7481B2B5BF30068402E /* EntranceViewController.swift in Sources */,
->>>>>>> origin/master
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
 				C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */,
