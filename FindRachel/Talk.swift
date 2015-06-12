@@ -10,7 +10,6 @@ import UIKit
 
 class Talk
 {
-    //let destinatario: Person
     
     let remetente: Person
     
@@ -18,7 +17,6 @@ class Talk
     
     init (remetente: Person, messsageList: [Message])
     {
-        //self.destinatario = destinatario
         self.remetente = remetente
         self.messsageList = messsageList
     }

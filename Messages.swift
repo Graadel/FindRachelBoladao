@@ -38,21 +38,23 @@ class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
         talkList = [Talk]()
         
         //PESSOAS
-        
         let rachel = Person(name: "Rachel")
         let amanda = Person(name: "Amanda")
         let lisa = Person(name: "Lisa")
         let josh = Person(name: "Josh")
+        let fer = Person(name: "Fernanda")
         
         //CONVERSAS
         let amandaMessages = [Message(text: "Oi", owner: amanda), Message(text: "Ola", owner: rachel), Message(text: "tudo bem?", owner: amanda), Message(text: "não", owner: rachel)]
         let lisaMessages = [Message(text: "ai termina esse app", owner: lisa), Message(text: "Cristo pai", owner: rachel), Message(text: "tô tentando", owner: rachel)]
         let joshMessages = [Message(text: "Ola", owner: josh), Message(text: "Oi", owner: rachel)]
+        let ferMessages = [Message(text: "Hey Rach.. Are you going to class today?", owner: fer), Message(text: "Yep!!! R U? Why are you missing classes so much?", owner: rachel), Message(text: "oh, fuck you!", owner: rachel)]
         
         //LISTA DE CONVERSAS
         talkList.append(Talk(remetente: amanda, messsageList: amandaMessages))
         talkList.append(Talk(remetente: lisa, messsageList: lisaMessages))
         talkList.append(Talk(remetente: josh, messsageList: joshMessages))
+        talkList.append(Talk(remetente: fer, messsageList: ferMessages))
         
     }
 
