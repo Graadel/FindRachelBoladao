@@ -18,6 +18,8 @@
 		42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF98D1B0BAA0300AB933D /* Main.storyboard */; };
 		42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF9921B0BAA0300AB933D /* LaunchScreen.xib */; };
 		42ABF9A01B0BAA0300AB933D /* FindRachelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */; };
+		42F8B7481B2B5BF30068402E /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F8B7461B2B5BF30068402E /* EntranceViewController.swift */; };
+		42F8B7491B2B5BF30068402E /* EntranceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F8B7471B2B5BF30068402E /* EntranceViewController.xib */; };
 		6025AEB71B262A920051C7E3 /* RachelMessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */; };
 		6025AEBB1B262B6F0051C7E3 /* RachelMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */; };
 		6085B9671B2B5A1100A86981 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B9661B2B5A1100A86981 /* Person.swift */; };
@@ -93,6 +95,8 @@
 		42ABF9991B0BAA0300AB933D /* FindRachelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindRachelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ABF99E1B0BAA0300AB933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ABF99F1B0BAA0300AB933D /* FindRachelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRachelTests.swift; sourceTree = "<group>"; };
+		42F8B7461B2B5BF30068402E /* EntranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceViewController.swift; sourceTree = "<group>"; };
+		42F8B7471B2B5BF30068402E /* EntranceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntranceViewController.xib; sourceTree = "<group>"; };
 		6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RachelMessagesTVCell.xib; sourceTree = "<group>"; };
 		6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RachelMessagesCell.swift; path = ../RachelMessagesCell.swift; sourceTree = "<group>"; };
 		6085B9661B2B5A1100A86981 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = MessagesDAO/Person.swift; sourceTree = "<group>"; };
@@ -272,6 +276,7 @@
 				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
 				7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */,
 				7D16DB751B18FF1800B02AE7 /* NotesView.xib */,
+				42F8B7471B2B5BF30068402E /* EntranceViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				7D16DB671B17B22F00B02AE7 /* IconCellCameraRoll.swift */,
 				16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */,
 				16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */,
+				42F8B7461B2B5BF30068402E /* EntranceViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 				7D16DB5A1B17A2EC00B02AE7 /* IconCellReceivedFiles.xib in Resources */,
 				7D70B9AF1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib in Resources */,
 				7DAE7B661B17A069002B6D4A /* ReceivedFiles.xib in Resources */,
+				42F8B7491B2B5BF30068402E /* EntranceViewController.xib in Resources */,
 				7D16DB6A1B17B22F00B02AE7 /* IconCellCameraRoll.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +450,11 @@
 				168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */,
 				7DAE7B621B179C69002B6D4A /* LockerVC.swift in Sources */,
 				C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */,
+<<<<<<< HEAD
 				6085B9671B2B5A1100A86981 /* Person.swift in Sources */,
+=======
+				42F8B7481B2B5BF30068402E /* EntranceViewController.swift in Sources */,
+>>>>>>> origin/master
 				7D70B9AE1B0E8DAC00BC1FB3 /* IconCellMainScreen.swift in Sources */,
 				7D18CEDF1B0E8ED300F3B340 /* IconCellGallery.swift in Sources */,
 				C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */,
