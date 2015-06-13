@@ -52,50 +52,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
                 self.window!.rootViewController = lockerVC
                 
-            } else if defaults.integerForKey("GamePhase") == 3 {
-                
-                var mainscreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
-                self.window!.rootViewController = mainscreenVC
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 4 {
-                
-                var galleryVC: GalleryVC = GalleryVC(nibName:"Gallery", bundle: nil)
-                self.window!.rootViewController = galleryVC
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 5 {
-                
-                var notesVC: NotesVC = NotesVC(nibName:"Notes", bundle: nil)
-                self.window!.rootViewController = notesVC
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 6 {
-                
-                var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
-                self.window!.rootViewController = lockerVC
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 7 {
-                
-                var mainscreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
-                self.window!.rootViewController = mainscreenVC
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 8 {
+            }  else if defaults.integerForKey("GamePhase") == 3 {
                 
                 var blockedVC: BlockedVC = BlockedVC(nibName:"BlockedVC", bundle: nil)
                 self.window!.rootViewController = blockedVC
                 
                 
-            } else if defaults.integerForKey("GamePhase") == 9 {
+            } else if defaults.integerForKey("GamePhase") == 4 {
                 
                 var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
                 self.window!.rootViewController = lockerVC
                 
                 
-                
-            } else if defaults.integerForKey("GamePhase") == 10 {
+            } else if defaults.integerForKey("GamePhase") == 5 {
                 
                 var finishedVC: FinishedVC = FinishedVC(nibName:"FinishedVC", bundle: nil)
                 self.window!.rootViewController = finishedVC
@@ -126,6 +95,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        
     }
 
     func applicationWillEnterForeground(application: UIApplication) {

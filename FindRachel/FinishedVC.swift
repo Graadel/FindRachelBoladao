@@ -12,6 +12,7 @@ class FinishedVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
        
     }

@@ -169,56 +169,12 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             
             self.presentViewController(controller, animated: true, completion: nil)
             
-        } else if indexPath.row == 3 {
+        } else {
             var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
             
-        } else if indexPath.row == 4 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-            
-        } else if indexPath.row == 5 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-            
-        } else if indexPath.row == 6 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-            
-        } else if indexPath.row == 7 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-            
-        } else if indexPath.row == 8 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-            
-        } else if indexPath.row == 9 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-            
-        } else if indexPath.row == 10 {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
-
-
-
-
-
-
-
-
-            
-        }
-
+        } 
 
      println(indexPath.row)
         
