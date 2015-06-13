@@ -13,6 +13,8 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
     
     var imageView: UIImageView!
     var defaults = NSUserDefaults.standardUserDefaults()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +29,8 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         
         view.addSubview(imageView)
         view.addSubview(collectionView)
+        
+        
     }
     
     //
@@ -44,6 +48,16 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
                 self.presentViewController(controller, animated: true, completion: nil)
             }
         }
+        
+        if (defaults.boolForKey("tipShowed") == false) {
+            
+            var alert = UIAlertController(title: "Tip:", message: "PrintScreen is your BFF", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+            presentViewController(alert, animated: true, completion: nil)
+            
+            defaults.setBool(true, forKey: "tipShowed")
+        }
+      
 
     }
     
@@ -117,9 +131,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         else if indexPath.row == 10 {
             
             cell.imageCell.image = UIImage(named: "internet.png")
-            var alert = UIAlertController(title: "Tip:", message: "PrintScreen is your BFF", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
+            
         }
         
        
