@@ -29,7 +29,7 @@ class CameraRoll: UIViewController, UICollectionViewDataSource, UICollectionView
         
              self.view.backgroundColor = UIColor.whiteColor()
         
-        Array=["r1","r2","arvore","r3","coqueiro","Pato1","Japones","r4","Kat","Mar_areia","r5","Mar","noite","Sapatilha","r6","r7","chandelier","ceu","casa","sinal","sunday","Visual","r8","Praia","pizza","Pato2","Oceano","Lounge","r9"]
+        Array=["r1","r2","arvore","r3","coqueiro","pato","sushi","r4","kat","praia","r5","agua","pordosol","sapatilha","r6","r7","xicara","casa","grade","sinal","doce","paisagem","ilha","pizza","patos","marepedras","mesas","r9"]
         
         
         
