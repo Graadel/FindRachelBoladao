@@ -10,10 +10,10 @@ import UIKit
 
 class MessagesCell: UITableViewCell {
 
-    @IBOutlet weak var pinImage: UIImageView!
+    //@IBOutlet weak var pinImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var lastMessageLabel: UILabel!
-    @IBOutlet weak var dayLabel: UILabel!
+    //@IBOutlet weak var lastMessageLabel: UILabel!
+    //@IBOutlet weak var dayLabel: UILabel!
     
     
     override func awakeFromNib() {

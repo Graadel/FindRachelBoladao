@@ -9,11 +9,13 @@
 import UIKit
 
 
-class ContactMessageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ContactMessageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+{
 
 
     @IBOutlet weak var tableView: UITableView!
-    @IBAction func backButton(sender: AnyObject) {
+    @IBAction func backButton(sender: AnyObject)
+    {
         var controller: Messages = Messages(nibName:"Messages", bundle:NSBundle.mainBundle())
         
         //self.presentViewController(controller, animated: true, completion: nil)
@@ -22,44 +24,49 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
     
     var talk: Talk!
     
-    override func viewDidLoad() {
+    override func viewWillAppear(animated: Bool)
+    {
+        let lastRowNumber = tableView.numberOfRowsInSection(0) - 1
+        let ip = NSIndexPath(forRow: lastRowNumber, inSection: 0)
+        [tableView.scrollToRowAtIndexPath(ip, atScrollPosition: UITableViewScrollPosition.Top, animated: false)]
+        
+    }
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         
-        //Register custom cells
-        //contacts
-        
+        //Register custom cells: message received and answer
         var nib = UINib(nibName: "ContactMessagesTVCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "Cell")
         
-        //Rachel
         var nibR = UINib(nibName: "RachelMessagesTVCell", bundle: nil)
         tableView.registerNib(nibR, forCellReuseIdentifier: "RachelCell")
         
+        //Método que adapta tamanho da célula ao tamanho do texto
         configureTableView()
         
         tableView.delegate = self
         tableView.dataSource = self
     }
     
-    override func didReceiveMemoryWarning() {
+    
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-
         return talk.messsageList.count
-
     }
-        
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
- 
-        
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
         
         var message = talk.messsageList[indexPath.row]
 
@@ -77,7 +84,8 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
             
 
             return cell
-        } else {
+        } else
+        {
             var cell:ContactMessagesCell!
             cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ContactMessagesCell
             cell.messageLabel.text = talk.messsageList[indexPath.row].text
@@ -91,19 +99,12 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
             return cell
         }
     }
+
     
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        println("Row \(indexPath.row) selected")
-
-    }
-
-
     func configureTableView() {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 160.0
     }
    
-        
 }
 

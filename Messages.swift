@@ -91,9 +91,9 @@ class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         var cell:MessagesCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! MessagesCell
         cell.nameLabel.text = talkList[indexPath.row].remetente.name
-        cell.lastMessageLabel.text = "last message"
-        cell.dayLabel.text = "domingo"
-        cell.pinImage.image = UIImage(named: "pin")
+        //cell.lastMessageLabel.text = "last message"
+        //cell.dayLabel.text = "domingo"
+        //cell.pinImage.image = UIImage(named: "pin")
           
         return cell
     }
@@ -114,4 +114,5 @@ class Messages: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 100
     }
+    
 }
