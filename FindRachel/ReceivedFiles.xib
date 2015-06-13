@@ -48,7 +48,11 @@
                     </connections>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Received Files" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-Qe-BDc">
-                    <rect key="frame" x="464" y="32.5" width="116" height="20.5"/>
+                    <rect key="frame" x="464" y="20" width="116" height="20.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="116" id="OMj-tJ-jCa"/>
+                        <constraint firstAttribute="height" constant="20.5" id="kCL-IP-Lld"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -59,7 +63,9 @@
                 <constraint firstItem="2Nz-1h-FWf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="4eo-DK-ZPW"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="leading" secondItem="2Nz-1h-FWf" secondAttribute="leading" constant="-20" id="5LL-h2-JkL"/>
                 <constraint firstAttribute="bottom" secondItem="Ps9-BT-6Py" secondAttribute="bottom" id="7K6-fj-p4G"/>
+                <constraint firstAttribute="trailing" secondItem="LZf-Qe-BDc" secondAttribute="trailing" constant="20" id="8bd-5J-e7u"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="trailing" secondItem="LZf-Qe-BDc" secondAttribute="trailing" constant="20" id="EJU-EY-bBk"/>
+                <constraint firstItem="LZf-Qe-BDc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Guc-JI-WbS"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="leading" secondItem="2Nz-1h-FWf" secondAttribute="trailing" constant="-66" id="MZj-66-bhG"/>
                 <constraint firstItem="LZf-Qe-BDc" firstAttribute="leading" secondItem="Ps9-BT-6Py" secondAttribute="trailing" constant="-136" id="R3D-Pq-Yxk"/>
                 <constraint firstItem="Ps9-BT-6Py" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="ThK-rN-0Xv"/>
@@ -73,8 +79,11 @@
             <variation key="default">
                 <mask key="constraints">
                     <exclude reference="5LL-h2-JkL"/>
+                    <exclude reference="EJU-EY-bBk"/>
                     <exclude reference="MZj-66-bhG"/>
+                    <exclude reference="dYa-lM-79o"/>
                     <exclude reference="fQB-xg-KE3"/>
+                    <exclude reference="R3D-Pq-Yxk"/>
                 </mask>
             </variation>
         </view>
