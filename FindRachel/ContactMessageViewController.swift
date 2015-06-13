@@ -26,7 +26,7 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
     
     override func viewWillAppear(animated: Bool)
     {
-        let lastRowNumber = tableView.numberOfRowsInSection(0) - 1
+        let lastRowNumber = tableView.numberOfRowsInSection(0) - 2
         let ip = NSIndexPath(forRow: lastRowNumber, inSection: 0)
         [tableView.scrollToRowAtIndexPath(ip, atScrollPosition: UITableViewScrollPosition.Top, animated: false)]
         
