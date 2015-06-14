@@ -63,6 +63,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
                 self.window!.rootViewController = lockerVC
                 
+
+                
                 
             } else if defaults.integerForKey("GamePhase") == 5 {
                 
