@@ -38,6 +38,8 @@ class SecondChapterViewController: UIViewController {
         label2.center = CGPoint(x: self.view.frame.size.width / 2, y: self.view.frame.size.height / 2)
         view.addSubview(label2)
         
+        label1.textColor = UIColor.brownColor()
+        
     }
     
     
