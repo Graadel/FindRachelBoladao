@@ -47,7 +47,7 @@ class VideoVC: UIViewController {
 
     func playVideo() {
         
-        let path = NSBundle.mainBundle().pathForResource("Video_Rachel_eng", ofType: "mp4")
+        let path = NSBundle.mainBundle().pathForResource(NSLocalizedString("Video_Rachel_eng", comment: "Video_Rachel_eng"), ofType: "mp4")
         let url = NSURL.fileURLWithPath(path!)
         moviePlayer = MPMoviePlayerController(contentURL: url)
         

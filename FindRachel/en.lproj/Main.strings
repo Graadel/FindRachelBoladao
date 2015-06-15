@@ -1,28 +1,45 @@
+"CONTENT" = "KEY";
+
+
+
+
+
 /*
+ 
  Localizable.strings
+ 
  FindRachel
  
+ 
+ 
  Created by Carol Grädel on 6/13/15.
+ 
  Copyright (c) 2015 Julia Motta Baitelli. All rights reserved.
+ 
  */
-"content" = "key";
+
+
+
 "Mom" = "Mãe";
+
 "Hi"= "Oi";
+
 "Remember me?" = "Lembra de mim?";
+
 "the app boy" = "the app boy";
+
 "let's hang out again" = "let's hang out again";
 
 "CHRIST, Answer my calls" = "CHRIST, Answer my calls";
+
 "please. stop." = "please. stop.";
-"stop"
 
-"but when will we hang out again?" = "but when will we hang out again?";
-
-
+"stop" = "stop";
 
 "but when will we hang out again?" = "but when will we hang out again?";
 
 "you again???" = "you again???";
+
 "heh. why don't you wanna talk to me?" = "heh. why don't you wanna talk to me?";
 
 "is there anything else I can try?" = "is there anything else I can try?";
@@ -49,512 +66,1038 @@
 
 "It's serious Rach... Can I count on you? I really need a friend at this moment.. I'd rather to tell you face to face but I'm not in the mood to go out.." = "It's serious Rach... Can I count on you? I really need a friend at this moment.. I'd rather to tell you face to face but I'm not in the mood to go out..";
 
+
+
 "Yes Amanda, you can count on me. I won’t tell anyone." = "Yes Amanda, you can count on me. I won’t tell anyone.";
+
+
 
 "Sorry, I fell asleep. Ok, well… My father got fired last month. He had been working in this company for 30 years." ="Sorry, I fell asleep. Ok, well… My father got fired last month. He had been working in this company for 30 years.";
 
+
+
 "OMG, Amanda, I'm so sorry :( I didn’t know.. He had an important position, didn't he?" = "OMG, Amanda, I'm so sorry :( I didn’t know.. He had an important position, didn't he?";
+
+
 
 "Yes… And my mom stopped working when she got pregnant of my little sister. So now things are terrible. I had to quit my painting classes and my sister had to quit ballet to save money. My father and mother are looking for a job desperately." = "Yes… And my mom stopped working when she got pregnant of my little sister. So now things are terrible. I had to quit my painting classes and my sister had to quit ballet to save money. My father and mother are looking for a job desperately.";
 
+
+
 "Oh Amanda, I can imagine how you feel, but things will get better. Why didn’t you tell me before? " = "Oh Amanda, I can imagine how you feel, but things will get better. Why didn’t you tell me before? ";
+
+
 
 "Cause it’s been very difficult to me. And this is not the worst thing…" = "Cause it’s been very difficult to me. And this is not the worst thing…";
 
+
+
 "Not the worst thing?" = "Not the worst thing?";
+
+
 
 "My father has been drinking too much… When he drinks, he gets very moody. Sometimes he cries a lot and sometimes he gets very aggressive.." = "My father has been drinking too much… When he drinks, he gets very moody. Sometimes he cries a lot and sometimes he gets very aggressive..";
 
+
+
 "Oh God, Amanda, but did he do anything to you?" = "Oh God, Amanda, but did he do anything to you?";
+
+
 
 "No no!!!… but when this happens, he starts yelling at my mom, saying that she doesn’t do anything and she needs to get a job. She is trying, you know? But it is not that easy…. I don’t want to leave her alone and I’m helping her find a job, that's why I'm missing classes so much." = "No no!!!… but when this happens, he starts yelling at my mom, saying that she doesn’t do anything and she needs to get a job. She is trying, you know? But it is not that easy…. I don’t want to leave her alone and I’m helping her find a job, that's why I'm missing classes so much.";
 
+
+
 "I see. Amanda, if you get afraid, you can come to my house. Please, count on me!" = "I see. Amanda, if you get afraid, you can come to my house. Please, count on me!";
+
+
 
 "Thanks Rach :(" = "Thanks Rach :(";
 
 
+
+
+
 "I'm going to your house 2moro. I can help you and your mom find a job.  I'll bring the copies to you. Ok?  :)" = "I'm going to your house 2moro. I can help you and your mom find a job.  I'll bring the copies to you. Ok?  :)";
+
+
 
 "Ok, thank you!!!" = "Ok, thank you!!!";
 
 
+
+
+
 "Thanks Rach!! It was very nice of you coming here to help us. And thanks for the copies too!" = "Thanks Rach!! It was very nice of you coming here to help us. And thanks for the copies too!";
 
-"Don’t need to thank me, Mandy. That's what friends are for!!",  = "Don’t need to thank me, Mandy. That's what friends are for!!", ;
+
+
+"Don’t need to thank me, Mandy. That's what friends are for!!",  = "Don’t need to thank me, Mandy. That's what friends are for!!" ;
+
+
 
 "Now I feel I can really count on you." =  "Now I feel I can really count on you.";
 
 
+
+
+
 "Sure you can ❤️" = "Sure you can ❤️";
+
+
 
 "Hey, How R U?? Why don’t you come to class? It would be good to you, you'd see your friends…" = "Hey, How R U?? Why don’t you come to class? It would be good to you, you'd see your friends…";
 
+
+
 "Yes, I’ve been thinking of this. I think I’ll go tomorrow!!!!!! " = "Yes, I’ve been thinking of this. I think I’ll go tomorrow!!!!!! ";
+
+
 
 "Hey, I'm feeling bad today 😣 Are you going to class??" = "Hey, I'm feeling bad today 😣 Are you going to class??";
 
+
+
 "Yes, I’ll be there today…. Shame we won't meet :(" = "Yes, I’ll be there today…. Shame we won't meet :(";
 
+
+
 "GR8 to know you’re going! Welcome back to college!" = "GR8 to know you’re going! Welcome back to college!";
+
+
+
 "Tomorrow we'll see each other." = "Tomorrow we'll see each other.";
+
+
 
 "Yessss!" = "Yessss!";
 
+
+
 "Rachel, I need to talk to you. Are you coming to class today?" = "Rachel, I need to talk to you. Are you coming to class today?";
+
+
 
 "I don’t know, I'm still feeling bad. I think I’ll stay home today and just go to class tomorrow."= "I don’t know, I'm still feeling bad. I think I’ll stay home today and just go to class tomorrow.";
 
+
+
 "So I’ll talk to you now." = "So I’ll talk to you now.";
 
+
+
 "Rachel, WHY?" = "Rachel, WHY?";
+
 "Why did you tell Lisa about my family problem??" = "Why did you tell Lisa about my family problem??";
+
+
 
 "I trusted you, I opened my house to you. WHY RACHEL?" =  "I trusted you, I opened my house to you. WHY RACHEL?";
 
+
+
 "Well, I didn't…….." = "Well, I didn't……..";
+
+
 
 "STOP lying Rachel!!!! I know the thuth!!! Yesterday when you missed class, Lisa told me everything." = "STOP lying Rachel!!!! I know the thuth!!! Yesterday when you missed class, Lisa told me everything.";
 
+
+
 "Oh…. Amanda, I'm sorry, I didn’t mean to..." = "Oh…. Amanda, I'm sorry, I didn’t mean to...";
+
+
 
 "Oh, you DID Rachel . You DID mean to. I can’t believe that I trusted you!" = "Oh, you DID Rachel . You DID mean to. I can’t believe that I trusted you!";
 
+
+
 "It wasn't my intention. Really!" = "It wasn't my intention. Really!";
+
+
 
 "I can’t believe Rachel, I CANT BELIEVE YOU DID THIS." = "I can’t believe Rachel, I CANT BELIEVE YOU DID THIS.";
 
+
+
 "Now my father will never find a job, because of your lies! You lied to me and you lied to Lisa. YOU ARE A LIAR, RACHEL." = "Now my father will never find a job, because of your lies! You lied to me and you lied to Lisa. YOU ARE A LIAR, RACHEL.";
+
+
 
 "I'm not a liar. It's not my fault if your dad is aggressive."="I'm not a liar. It's not my fault if your dad is aggressive.";
 
 
 
+
+
+
+
 "I can’t believe you are saying this, Rachel. I should've listened to what everybody says…" = "I can’t believe you are saying this, Rachel. I should've listened to what everybody says…";
+
+
 
 "What does everybody say?" = "What does everybody say?";
 
+
+
 "That you are a b... , you're evil, Rachel!!! I don’t know how I could trust you." = "That you are a b... , you're evil, Rachel!!! I don’t know how I could trust you.";
+
+
 
 "I'm what??? Come one, this is just envy 😘 " = "I'm what??? Come one, this is just envy 😘 ";
 
+
+
 "Actually, I don’t give a damn to what you think. I was just trying to help you when I went to your house. YOU told me your sad story. I didnt ask to listen to it. It was not my intention to tell Lisa, it was just a mistake, but after all that, I think you deserved it." = "Actually, I don’t give a damn to what you think. I was just trying to help you when I went to your house. YOU told me your sad story. I didnt ask to listen to it. It was not my intention to tell Lisa, it was just a mistake, but after all that, I think you deserved it.";
 
+
+
 "You really let me down! Don’t you EVER talk to me again, Rachel." = "You really let me down! Don’t you EVER talk to me again, Rachel.";
+
+
+
 
 
 "And remember: What goes around, comes around. " = "And remember: What goes around, comes around. ";
 
 
+
+
+
 "I'm glad you are gone, Rachel." = "I'm glad you are gone, Rachel.";
+
+
+
 
 
 "Hey Lisa! I'll be late today. Can you keep a seat for me by your side, pls? " = "Hey Lisa! I'll be late today. Can you keep a seat for me by your side, pls?";
 
+
+
 "Yesss :)" ="Yesss :)";
+
+
 
 "Listen, Amanda hasn't shown up today again.. I'm worried about her." = "Listen, Amanda hasn't shown up today again.. I'm worried about her.";
 
+
+
 "Oh.. She's just having some problems at home. Nothing serious. I mean, kind of..." = "Oh.. She's just having some problems at home. Nothing serious. I mean, kind of...";
+
+
 
 "Problems? What's going on??" = "Problems? What's going on??";
 
+
+
 "Opsss.. I wasn’t supposed to tell you that." = "Opsss.. I wasn’t supposed to tell you that.";
+
+
 
 "Come on, Rachel. Once you've started, now you finish --'" = "Come on, Rachel. Once you've started, now you finish --'";
 
+
+
 "Sorry, I can’t." = "Sorry, I can’t.";
+
+
+
 
 
 "Ok. I’ll ask her." = "Ok. I’ll ask her.";
 
 
+
+
+
 "No, she can’t know that I told you that something is wrong." = "No, she can’t know that I told you that something is wrong.";
+
+
+
 
 
 "Ok, but now I'm more worried than before." = "Ok, but now I'm more worried than before.";
 
+
+
 "Alright, I'll tell you, but promise you won’t tell her that I’ve told you. OK?" = "Alright, I'll tell you, but promise you won’t tell her that I’ve told you. OK?";
+
+
 
 "I promise." = "I promise.";
 
 
+
+
+
 "So, her father was fired last month. " = "So, her father was fired last month. ";
 
+
+
 "Because of that, he’s been drinking too much and becoming very aggressive. I think he beats her mother." = "Because of that, he’s been drinking too much and becoming very aggressive. I think he beats her mother.";
+
+
 
 "WHAT? This is really serious!" = "WHAT? This is really serious!";
 
 
 
+
+
+
+
 "Sad :(" = "Sad :(";
 
+
+
 "She told you that he beats her mom???" = "She told you that he beats her mom???";
+
+
+
 
 
 "Not in words… but I'm SURE he does!!! I went to her house yesterday and her mom was REALLY down." = "Not in words… but I'm SURE he does!!! I went to her house yesterday and her mom was REALLY down.";
 
 
+
+
+
 "OMG Rachel, we have to go to the police!" = "OMG Rachel, we have to go to the police!";
+
+
 
 "No Lisa, please!!!!! She can’t know that I’ve told you that." = "No Lisa, please!!!!! She can’t know that I’ve told you that.";
 
+
+
 "Ok, I’ll try to know from her." = "Ok, I’ll try to know from her.";
+
+
 
 "I'm almost at college. Let's talk more when I get there." = "I'm almost at college. Let's talk more when I get there.";
 
+
+
 "I'm almost at college. Let's talk more when I get there."="I'm almost at college. Let's talk more when I get there.";
+
+
+
 
 
 "ARE YOU STUPID??" = "ARE YOU STUPID??";
 
 
+
+
+
 "Why did you tell Amanda that I told you!!!!?????" = "Why did you tell Amanda that I told you!!!!?????";
+
+
+
 
 
 "I was worried Rachel, I really care about Amanda, I needed to talk to her!!!!" = "I was worried Rachel, I really care about Amanda, I needed to talk to her!!!!";
 
+
+
 "Great, so now our friendship is over because of you!!!!" = "Great, so now our friendship is over because of you!!!!";
 
+
+
 "No Rachel, you did that. Amanda told me that her father has NEVER beat anyone! You were gossiping about something serious!" = "No Rachel, you did that. Amanda told me that her father has NEVER beat anyone! You were gossiping about something serious!";
+
+
 
 "I wasn't gossiping!!!!! I really thought her dad had beat her mom!!!! " = "I wasn't gossiping!!!!! I really thought her dad had beat her mom!!!! ";
 
 
+
+
+
 "No one has the right to play with those things. You said that you were SURE about that. I’m really disappointed with you, and so is Amanda." = "No one has the right to play with those things. You said that you were SURE about that. I’m really disappointed with you, and so is Amanda.";
+
+
 
 "You've broken your promise!!! You are a fool, Lisa!!!! Thanks a lot!!!! I’ve lost a friend! I’m SO angry at you, Lisa. YOU DIDNT have the right to end my friendship!!!" = "You've broken your promise!!! You are a fool, Lisa!!!! Thanks a lot!!!! I’ve lost a friend! I’m SO angry at you, Lisa. YOU DIDNT have the right to end my friendship!!!";
 
 
+
+
+
 "And you didnt have the right to make up stories about serious things!!!! " = "And you didnt have the right to make up stories about serious things!!!! ";
+
+
 
 "I don’t want to see your stupid face in front of me, Lisa. I'm tired of people like you. Goodbye." = "I don’t want to see your stupid face in front of me, Lisa. I'm tired of people like you. Goodbye.";
 
+
+
 "You should be careful about what you do and say, Rachel. You should be really careful…." = "You should be careful about what you do and say, Rachel. You should be really careful….";
+
+
+
 
 
 "It's been three days since we last talked to each other. I know today is your birthday, but I want to talk to you." = "It's been three days since we last talked to each other. I know today is your birthday, but I want to talk to you.";
 
 
+
+
+
 "Im in class. Say it" = "Im in class. Say it";
+
+
 
 "No, it must be face to face. Meet me at the basketball court at 10:30 am. " = "No, it must be face to face. Meet me at the basketball court at 10:30 am. ";
 
+
+
 "Hey Rachel!" = "Hey Rachel!";
+
 "What, Josh?" = "What, Josh?";
+
 "Don't be so cold!" = "Don't be so cold!";
+
+
 
 "Josh, we’re done. I have nothing to talk to you." = "Josh, we’re done. I have nothing to talk to you.";
 
 
+
+
+
 "But I do!i want explanations!!" = "But I do!i want explanations!!";
+
+
 
 "Josh, stop that! I’ve never cheated on you." = "Josh, stop that! I’ve never cheated on you.";
 
+
+
 "How come you were going out with another guy the day after breaking up with me?!" = "How come you were going out with another guy the day after breaking up with me?!";
+
+
 
 "Josh, you have nothing to do with my life! Not anymore. " = "Josh, you have nothing to do with my life! Not anymore. ";
 
+
+
 "Why did you leave me, Rachel?" = "Why did you leave me, Rachel?";
 
+
+
 "We've already had this conversation. It's over!" = "We've already had this conversation. It's over!";
+
+
 
 "I like you so much…" = "I like you so much…";
 
 
+
+
+
 "Josh, it's OVER! Come on, what do you wanna talk to me?" = "Josh, it's OVER! Come on, what do you wanna talk to me?";
 
+
+
 "Are you sure you don’t wanna get back?" = "Are you sure you don’t wanna get back?";
+
+
+
 
 
 "Well, you know… I was searching some  images… and I came across some pics..." = "Well, you know… I was searching some  images… and I came across some pics...";
 
 
+
+
+
 "Which pictures, Josh?!" = "Which pictures, Josh?!";
+
+
+
 
 
 "Some pics you gave me when we started dating... if you know what I mean." = "Some pics you gave me when we started dating... if you know what I mean.";
 
+
+
 "Do you still have those pictures?!You said you had wiped them out!!!" = "Do you still have those pictures?!You said you had wiped them out!!!";
 
+
+
 "I really had. But you know, after you broke up with me, I recovered them. Damn it, how I miss your body!" = "I really had. But you know, after you broke up with me, I recovered them. Damn it, how I miss your body!";
+
+
 
 "You are sick, Josh!!!! Go get another girl for you, and PLEASE, wipe out those pictures!!" = "You are sick, Josh!!!! Go get another girl for you, and PLEASE, wipe out those pictures!!";
 
 
+
+
+
 "Well, I was thinking about doing something else with them…" = "Well, I was thinking about doing something else with them…";
+
+
 
 "Arggh, for God sake! What, Josh???" = "Arggh, for God sake! What, Josh???";
 
+
+
 "You know, if you don’t wanna be with me no more, there’s no reason why those pics should belong just to me. I think other people could see them." = "You know, if you don’t wanna be with me no more, there’s no reason why those pics should belong just to me. I think other people could see them.";
+
+
 
 "Are you threatening me???" = "Are you threatening me???";
 
 
+
+
+
 "Understand the way you want to." = "Understand the way you want to.";
+
+
+
 
 
 "Are you really gonna be capable of doing something like that to me? After all those years together?!" = "Are you really gonna be capable of doing something like that to me? After all those years together?!";
 
 
+
+
+
 "You’ve left me Rachel. What can I do?" = "You’ve left me Rachel. What can I do?";
+
+
 
 "Act like an adult and move on!!!! " = "Act like an adult and move on!!!! ";
 
+
+
 "You’ve broken my heart." = "You’ve broken my heart.";
+
+
 
 "Forget this crazy idea Josh, please! DELETE THOSE PHOTOS!!!" = "Forget this crazy idea Josh, please! DELETE THOSE PHOTOS!!!";
 
+
+
 "We’ve gone through so many incredible moments together! You can't do that to me!" = "We’ve gone through so many incredible moments together! You can't do that to me!";
+
+
 
 "There’s only one way I won't spread those pics." = "There’s only one way I won't spread those pics.";
 
+
+
 "What way? Getting back to you?" = "What way? Getting back to you?";
+
+
+
 
 
 "Give me one more chance, Rachel!" = "Give me one more chance, Rachel!";
 
 
+
+
+
 "Josh, I know you. I know you are a good person. The Josh I know would never do something like that. You're good. You're different from me! Please, don’t spoil everything!" = "Josh, I know you. I know you are a good person. The Josh I know would never do something like that. You're good. You're different from me! Please, don’t spoil everything!";
+
+
 
 "I have no choice." = "I have no choice.";
 
+
+
 "So guess what? I’m NOT getting back to you! No way!!!! " =  "So guess what? I’m NOT getting back to you! No way!!!! ";
+
+
+
 
 
 "I believe you need to think Rachel. I’ll give you 2 days."  = "I believe you need to think Rachel. I’ll give you 2 days.";
 
 
+
+
+
 "You are playing with fire Josh. It seems you don’t know me." = "You are playing with fire Josh. It seems you don’t know me.";
+
+
 
 "And I guess YOU don’t know me. You have two days to decide." = "And I guess YOU don’t know me. You have two days to decide.";
 
+
+
 "On your birthday, I’ll ask you for an answer. It's your choice: the pictures or me. " = "On your birthday, I’ll ask you for an answer. It's your choice: the pictures or me. ";
+
+
 
 "I won’t let you do that Josh! I don’t know what I can do if you spread those photos." = "I won’t let you do that Josh! I don’t know what I can do if you spread those photos.";
 
+
+
 "So now YOU are threatening me?" = "So now YOU are threatening me?";
 
+
+
 "Understand the way you want to." = "Understand the way you want to.";
+
+
+
 
 
 "And remember: you know what I’m capable of." = "And remember: you know what I’m capable of.";
 
 
+
+
+
 "I’m not afraid of you." = "I’m not afraid of you.";
+
+
 
 "And I’m not afraid of you either." = "And I’m not afraid of you either.";
 
+
+
 "In two days, you give me an answer." = "In two days, you give me an answer.";
+
+
+
 
 
 "I'll give you an answer. If you're still alive." = "I'll give you an answer. If you're still alive.";
 
 
+
+
+
 "So you'll give me an answer. If YOU are still alive!" = "So you'll give me an answer. If YOU are still alive!";
 
 
+
+
+
 "Hi, Rachel!" = "Hi, Rachel!";
+
+
+
 "Hi, Will!" = "Hi, Will!";
+
+
+
 "How r u?" = "How r u?";
+
+
+
 "Fine, and U?" = "Fine, and U?";
+
+
+
 "Fine too! Haven’t seen you since you and Josh broke up!!!" = "Fine too! Haven’t seen you since you and Josh broke up!!!";
+
+
+
 "Listen, you’re not gonna talk about him, r u?" = "Listen, you’re not gonna talk about him, r u?";
+
+
+
 "No, no… he is my bro, but I know you guys are over." = "No, no… he is my bro, but I know you guys are over.";
+
+
+
 "Yes." = "Yes.";
+
+
 
 "What r u doing today?" = "What r u doing today?";
 
+
+
 "I’m going to college.. after that, I don’t know. " = "I’m going to college.. after that, I don’t know. ";
+
+
 
 "Wanna go out with me? Maybe a cinema." = "Wanna go out with me? Maybe a cinema.";
 
 
+
+
+
 "Cinema? You and me? Will, you’re very close to Josh. R u crazy?" = "Cinema? You and me? Will, you’re very close to Josh. R u crazy?";
 
+
+
 "Come on, Rachel. I know you. You wouldn’t refuse to go out with an ex-boyfriend's friend… You’re just like me." = "Come on, Rachel. I know you. You wouldn’t refuse to go out with an ex-boyfriend's friend… You’re just like me.";
+
+
 
 "Maybe. If the guy was gorgeous. That’s not the case here." = "Maybe. If the guy was gorgeous. That’s not the case here.";
 
 
+
+
+
 "HAHA. I wasn’t going to ask you out. You’re silly, girl! But I changed my mind after I saw some pics of you." = "HAHA. I wasn’t going to ask you out. You’re silly, girl! But I changed my mind after I saw some pics of you.";
 
+
+
 "Didn’t know you were SO hot. 👅" = "Didn’t know you were SO hot. 👅";
+
+
+
 
 
 "What are you talking about???" = "What are you talking about???";
 
 
+
+
+
 "Congrats Rachel! Your body is amazing!" = "Congrats Rachel! Your body is amazing!";
+
+
 
 "I CAN’T BELIEVE JOSH DID THAT. HE’S A JERK. BOTH OF YOU ARE JERKS!!!!" = "I CAN’T BELIEVE JOSH DID THAT. HE’S A JERK. BOTH OF YOU ARE JERKS!!!!";
 
+
+
 "Calm down baby, He just showed it to me!! And don’t talk to me like that, you are just a b…. " = "Calm down baby, He just showed it to me!! And don’t talk to me like that, you are just a b…. ";
+
+
 
 "STOP TALKING! " = "STOP TALKING! ";
 
+
+
 "This WON'T end up like this..." = "This WON'T end up like this...";
+
+
 
 "Now she’s mad!!!!!!! " = "Now she’s mad!!!!!!! ";
 
+
+
 "Go f* yourself William. I knew you were just like Josh." = "Go f* yourself William. I knew you were just like Josh.";
 
+
+
 "No Rachel, I’m just like YOU." = "No Rachel, I’m just like YOU.";
+
+
+
 
 
 "Hey mom, what's for dinner today?" = "Hey mom, what's for dinner today?";
 
 
+
+
+
 "Hello, dear. I was thinking about ordering a pizza. :)" = "Hello, dear. I was thinking about ordering a pizza. :)";
+
+
+
 
 
 "Cool!" = "Cool!";
 
+
+
 "Are you sure you’re not going to celebrate your birthday?" = "Are you sure you’re not going to celebrate your birthday?";
+
+
 
 "Yes, I have a test the next day, 21. I may go to a night club with some friends. " = "Yes, I have a test the next day, 21. I may go to a night club with some friends. ";
 
+
+
 "Alright!" = "Alright!";
+
+
 
 "Why r u asking me that?" = "Why r u asking me that?";
 
 
-"Nothing, I just wanted to know." =
-"Nothing, I just wanted to know.";
 
 
-"Rachel, is too late. You’ve been out of home since early this morning. Your sister came home at 6 pm. It's 11 p.m now. You have class tomorrow!!!!" = "Rachel, is too late. You’ve been out of home since early this morning. Your sister came home at 6 pm. It's 11 p.m now. You have class tomorrow!!!!";,
+
+"Nothing, I just wanted to know." = "Nothing, I just wanted to know.";
+
+
+
+
+
+"Rachel, is too late. You’ve been out of home since early this morning. Your sister came home at 6 pm. It's 11 p.m now. You have class tomorrow!!!!" = "Rachel, is too late. You’ve been out of home since early this morning. Your sister came home at 6 pm. It's 11 p.m now. You have class tomorrow!!!!";
+
+
 
 "Rachel, where are you?" = "Rachel, where are you?";
 
+
+
 "Dear, come home. I'm worried." = "Dear, come home. I'm worried.";
 
-"I'm going home mom. I'm sorry." = "I'm going home mom. I'm sorry."
+
+
+"I'm going home mom. I'm sorry." = "I'm going home mom. I'm sorry.";
+
+
+
 
 
 "I’ve spent the day with Peter and Chloe. I’m feeling bad…" = "I’ve spent the day with Peter and Chloe. I’m feeling bad…";
 
+
+
 "Oh, honey, come home. I’ll prepare you some soup." = "Oh, honey, come home. I’ll prepare you some soup.";
 
 
-"Ok, I’m almost home." ="Ok, I’m almost home."
+
+
+
+"Ok, I’m almost home." ="Ok, I’m almost home.";
+
+
 
 "Ok, I'm waiting for you." = "Ok, I'm waiting for you.";
 
+
+
 "Hello, dear. I'm already at work. Are you feeling better?" = "Hello, dear. I'm already at work. Are you feeling better?";
 
+
+
 "No, I'm still feeling bad… I think I’ll stay at home today." = "No, I'm still feeling bad… I think I’ll stay at home today.";
+
+
 
 "Ok, darling, take some rest. Go back to bed!"= "Ok, darling, take some rest. Go back to bed!";
 
 
+
+
+
 "I’ll do that." = "I’ll do that.";
 
+
+
 "Ok, I'm waiting for you." = "Ok, I'm waiting for you.";
+
+
 
 "Hello, dear. I'm already at work. Are you feeling better?" = "Hello, dear. I'm already at work. Are you feeling better?";
 
 
+
+
+
 "No, I'm still feeling bad… I think I’ll stay at home today." = "No, I'm still feeling bad… I think I’ll stay at home today.";
 
+
+
 "Ok, darling, take some rest. Go back to bed!" = "Ok, darling, take some rest. Go back to bed!";
+
+
 
 "I’ll do that." = "I’ll do that.";
 
 
+
+
+
 "Hey, honey, is everything ok? I though you were kind of sad today.." =
+
 "Hey, honey, is everything ok? I though you were kind of sad today..";
+
+
+
 
 
 "It’s alright mom, it’s alright… don’t worry about me." = "It’s alright mom, it’s alright… don’t worry about me.";
 
+
+
 "Of course I worry about you!!!! " = "Of course I worry about you!!!! ";
+
+
 
 "Its ok mom." = "Its ok mom.";
 
+
+
 "I love you!!!!!!!!!!!!!" = "I love you!!!!!!!!!!!!!";
 
+
+
 "luv u 2…" = "luv u 2…";
+
+
 
 "Happy birthday my little angel!!! 18 years old!!! You were the best thing that has ever happened to me! I didn’t see you leaving home today but tonight I’ll kiss you and hug you a lot!!! Love you so much!!!!" = "Happy birthday my little angel!!! 18 years old!!! You were the best thing that has ever happened to me! I didn’t see you leaving home today but tonight I’ll kiss you and hug you a lot!!! Love you so much!!!!";
 
 
+
+
+
 "And don’t forget to be at home at 6:30p.m. to have dinner with me, your dad and your sister! He's leaving his job earlier because of you! Don’t be late :)" = "And don’t forget to be at home at 6:30p.m. to have dinner with me, your dad and your sister! He's leaving his job earlier because of you! Don’t be late :)";
+
+
 
 "Rach, is 6:45 p.m. Where are you??" = "Rach, is 6:45 p.m. Where are you??";
 
+
+
 "Rachel, why don’t you answer the phone?" = "Rachel, why don’t you answer the phone?";
+
+
 
 "Rachel, it's 7.00!!!!" = "Rachel, why don’t you answer the phone?";
 
+
+
 "Rachel, I’ve called you 5 times, Why don’t you answer me???"  =  "Rachel, I’ve called you 5 times, Why don’t you answer me???";
+
+
+
 
 
 "RACHEL???? Yesterday you said you'd be here at 6:30. It’s 7:20 now!!!!" = "RACHEL???? Yesterday you said you'd be here at 6:30. It’s 7:20 now!!!!";
 
 
+
+
+
 "Rachel, PLEASE, answer me!!!!!!!!!! I'm really worried!!!!!" = "Rachel, PLEASE, answer me!!!!!!!!!! I'm really worried!!!!!";
+
+
 
 "Rachel, we have prepared you a surprise party!!! Everybody is here to see you!!!! WHERE ARE YOU??" = "Rachel, we have prepared you a surprise party!!! Everybody is here to see you!!!! WHERE ARE YOU??";
 
+
+
 "They’re saying you left college earlier! WHERE ARE YOU??" = "They’re saying you left college earlier! WHERE ARE YOU??";
+
+
 
 "I’ve called you 50 times already!!! It's 8pm!! Everybody is leaving!!!" = "I’ve called you 50 times already!!! It's 8pm!! Everybody is leaving!!!";
 
+
+
 "Rachel, please, come home!" = "Rachel, please, come home!";
+
+
 
 "I’m calling 911." = "I’m calling 911.";
 
+
+
 "Hey sister, what’s your credit card password?" = "Hey sister, what’s your credit card password?";
 
+
+
 "Guess lol" = "Guess lol";
+
+
+
 
 
 "It’s serious… Wasn’t it 1984, as the title of the book you love?" = "It’s serious… Wasn’t it 1984, as the title of the book you love?";
 
 
+
+
+
 "Right!" = "Right!";
+
+
 
 "Did you change it?" = "Did you change it?";
 
+
+
 "Yep!" =  "Yep!";
+
+
 
 "And…….?" = "And…….?";
 
+
+
 "I started to read new things." = "I started to read new things.";
+
+
 
 "Are you really gonna disappear when we prepare you a surprise party?" = "Are you really gonna disappear when we prepare you a surprise party?";
 
+
+
 "People are leaving!!!!" = "People are leaving!!!!";
+
 "Nice… Happy Birthday." = "Nice… Happy Birthday.";
+
+
 
 "Where are you??????" = "Where are you??????";
 
 
+
+
+
 "Rachel, srsly mom and dad are worried!!!" = "Rachel, srsly mom and dad are worried!!!";
+
+
 
 "Rachel is gone" = "Rachel is gone";
 
+
+
 "Help\nHelp\nHelp\nHhlp\nHelp\nHelp\nHelp\nHepl\nHelp\nHelp\nHelp\nHelp\nHlep\nHelp\nHelp\nHelp\nHelp\nHelp\nHelpehel\nHele\nHepl\nGelep\nHepl\nHell\n \n19/10"= "Help\nHelp\nHelp\nHhlp\nHelp\nHelp\nHelp\nHepl\nHelp\nHelp\nHelp\nHelp\nHlep\nHelp\nHelp\nHelp\nHelp\nHelp\nHelpehel\nHele\nHepl\nGelep\nHepl\nHell\n \n19/10";
+
+
 
 "Buy:\n \nEggs\nWatermelon\nOrange Juice\nBread\nBacon\nGloves\nRope\nTape\nKnife\n \nI think that will be enough...\n \n18/10" = "Buy:\n \nEggs\nWatermelon\nOrange Juice\nBread\nBacon\nGloves\nRope\nTape\nKnife\n \nI think that will be enough...\n \n18/10";
 
+
+
 "WHAT A DAY" = "WHAT A DAY";
+
+
 
 "I just want to get this off my chest:\n \nThings are really strange.\nI’m losing all my friends.\nEverybody is mad at me.\nAnd I can't understand why. I should be mad at them, not the opposite.\nI feel that something really bad is about to happen...\nI can feel this...\n \n17/10" = "I just want to get this off my chest:\n \nThings are really strange.\nI’m losing all my friends.\nEverybody is mad at me.\nAnd I can't understand why. I should be mad at them, not the opposite.\nI feel that something really bad is about to happen...\nI can feel this...\n \n17/10";
 
+
+
 "Plans to Weekend:\n \nFriday 20/10 (Birthday. YEY!):\nDinner with family\n \nSaturday 21/10:\n9 a.m: Philosophy Test\n3 p.m: Hairdresser\n10 p.m: Night Club\n \nSunday 22/10:\n5 p.m: Cinema w/ Carol\n \n15/10" = "Plans to Weekend:\n \nFriday 20/10 (Birthday. YEY!):\nDinner with family\n \nSaturday 21/10:\n9 a.m: Philosophy Test\n3 p.m: Hairdresser\n10 p.m: Night Club\n \nSunday 22/10:\n5 p.m: Cinema w/ Carol\n \n15/10";
+
+
 
 "she's leaving home \n after living alone \n for so many years" = "she's leaving home \n after living alone \n for so many years";
 
+
+
 "Tip:" = "Tip:";
+
+
+
+
 
 "PrintScreen is your BFF" ="PrintScreen is your BFF";
 
+
+
 "LOCKED" = "LOCKED";
 
-"Back" = "Back"
+
+
+"Back" = "Back";
+
+
 
 "h6.png" = "h6.png";
 
-"Video_Rachel_eng.mp4" = "Video_Rachel_eng.mp4";
+
+
+"Video_Rachel_eng" = "Video_Rachel_eng";

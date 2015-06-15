@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1609507E1B2D27140033197E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 160950801B2D27140033197E /* Localizable.strings */; };
 		168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */; };
 		168107441B296EB900352BDE /* Video_Rachel_pt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */; };
 		168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168107451B2981EF00352BDE /* UIColorExtension.swift */; };
@@ -81,16 +80,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1609507C1B2D23F70033197E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
-		1609507D1B2D23F80033197E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		1609507F1B2D27140033197E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		160950811B2D271A0033197E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video_Rachel_eng.mp4; sourceTree = "<group>"; };
 		168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video_Rachel_pt.mp4; sourceTree = "<group>"; };
 		168107451B2981EF00352BDE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerTest.swift; sourceTree = "<group>"; };
 		16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		16ED76091B2E7CF200248EB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		16ED760A1B2E7CFE00248EB0 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
 		427324D31B0E65F2008F1155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42ABF9841B0BAA0300AB933D /* FindRachel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindRachel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ABF9881B0BAA0300AB933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -245,7 +242,6 @@
 				60F4B0F41B14F94200691114 /* ContactMessagesTVCell.xib */,
 				6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */,
 				6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */,
-				160950801B2D27140033197E /* Localizable.strings */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
@@ -373,9 +369,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
-				pt,
 			);
 			mainGroup = 42ABF97B1B0BAA0300AB933D;
 			productRefGroup = 42ABF9851B0BAA0300AB933D /* Products */;
@@ -415,7 +409,6 @@
 				60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */,
 				7DAE7B5C1B16342B002B6D4A /* Notes2ViewController.xib in Resources */,
 				42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */,
-				1609507E1B2D27140033197E /* Localizable.strings in Resources */,
 				60F4B0F51B14F94200691114 /* ContactMessagesTVCell.xib in Resources */,
 				7D16DB5A1B17A2EC00B02AE7 /* IconCellReceivedFiles.xib in Resources */,
 				7D70B9AF1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib in Resources */,
@@ -492,20 +485,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		160950801B2D27140033197E /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1609507F1B2D27140033197E /* en */,
-				160950811B2D271A0033197E /* pt */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		42ABF98D1B0BAA0300AB933D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				42ABF98E1B0BAA0300AB933D /* Base */,
-				1609507C1B2D23F70033197E /* pt */,
+				16ED76091B2E7CF200248EB0 /* en */,
+				16ED760A1B2E7CFE00248EB0 /* pt */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -514,7 +499,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				42ABF9931B0BAA0300AB933D /* Base */,
-				1609507D1B2D23F80033197E /* pt */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

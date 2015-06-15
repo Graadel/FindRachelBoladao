@@ -51,7 +51,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         
         if (defaults.boolForKey("tipShowed") == false) {
             
-            var alert = UIAlertController(title: "Tip:", message: "PrintScreen is your BFF", preferredStyle: UIAlertControllerStyle.Alert)
+            var alert = UIAlertController(title: NSLocalizedString("Tip:", comment: "Tip:"), message: NSLocalizedString("PrintScreen is your BFF", comment: "PrintScreen is your BFF"), preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
             presentViewController(alert, animated: true, completion: nil)
             
@@ -170,7 +170,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             self.presentViewController(controller, animated: true, completion: nil)
             
         } else {
-            var alert = UIAlertController(title: "LOCKED", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+            var alert = UIAlertController(title: NSLocalizedString("LOCKED", comment: "LOCKED"), message: "", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
             
