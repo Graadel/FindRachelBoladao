@@ -10,27 +10,16 @@ import UIKit
 
 class BlockedVC: UIViewController, UIScrollViewDelegate{
     
-    let kInterpolateStagesWithAlpha = true
-    let kScrollViewTravel = 200.0
-    let kMaximumBlurRadius = 25.0
-    let kNumberOfStages = 10
-    
     var imageView: UIImageView!
     var imageView2: UIImageView!
     var background: UIImage!
-    var animator: Animator!
     var booleano: Bool!
-    
-    
-    var blurredImages: [UIImage] = []
-    var scrollView: UIScrollView! = UIScrollView()
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
         booleano = true
     
-        
          UIApplication.sharedApplication().statusBarHidden = true
 
     }
@@ -40,6 +29,8 @@ class BlockedVC: UIViewController, UIScrollViewDelegate{
     }
     
     override func viewWillAppear(animated: Bool) {
+        
+        // IMAGEM DE FUNDO
         background = UIImage(named: "fundo")
         
         var hora: UILabel = UILabel(frame: CGRectMake(0,0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height/4))
