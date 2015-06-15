@@ -59,12 +59,9 @@ class LockerVC: UIViewController {
         
         passImageView.image = UIImage(named: "visor1")
         
-<<<<<<< HEAD
-=======
        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu")!)
         
-        
->>>>>>> origin/master
+      
     }
     
     override func viewDidAppear(animated: Bool) {
