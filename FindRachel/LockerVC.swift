@@ -15,6 +15,7 @@ class LockerVC: UIViewController {
     var code: String!
     var valueString = ""
     var imageView: UIImageView!
+    
     @IBOutlet weak var lockLabel: UILabel!
     @IBOutlet weak var passImageView: UIImageView!
     
@@ -35,7 +36,9 @@ class LockerVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView = UIImageView(image: UIImage(named:"menublur.png"))
+
+        // IMAGEM DE FUNDO
+        imageView = UIImageView(image: UIImage(named:"Menublur.png"))
         
             imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
             imageView.contentMode = UIViewContentMode.ScaleAspectFit

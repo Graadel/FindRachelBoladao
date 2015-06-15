@@ -32,8 +32,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         println(defaults.integerForKey("hasRun").description)
         println(defaults.integerForKey("GamePhase").description)
         
-            var galleryVC: GalleryVC = GalleryVC(nibName:"Gallery", bundle: nil)
-            self.window!.rootViewController = galleryVC
+            var mainScreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
+            self.window!.rootViewController = mainScreenVC
   
         
         
@@ -54,8 +54,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 
             }  else if defaults.integerForKey("GamePhase") == 3 {
                 
-                var blockedVC: BlockedVC = BlockedVC(nibName:"BlockedVC", bundle: nil)
-                self.window!.rootViewController = blockedVC
+                var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
+                self.window!.rootViewController = lockerVC
                 
                 
             } else if defaults.integerForKey("GamePhase") == 4 {
