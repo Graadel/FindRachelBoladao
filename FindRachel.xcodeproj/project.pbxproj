@@ -22,6 +22,7 @@
 		42F8B7491B2B5BF30068402E /* EntranceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F8B7471B2B5BF30068402E /* EntranceViewController.xib */; };
 		6025AEB71B262A920051C7E3 /* RachelMessagesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6025AEB61B262A920051C7E3 /* RachelMessagesTVCell.xib */; };
 		6025AEBB1B262B6F0051C7E3 /* RachelMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025AEBA1B262B6F0051C7E3 /* RachelMessagesCell.swift */; };
+		603B09301B2F80E20008A1F5 /* OratorStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4202E9501B2EFAF5004EB135 /* OratorStd.otf */; };
 		6085B9671B2B5A1100A86981 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B9661B2B5A1100A86981 /* Person.swift */; };
 		6085B9691B2B5A8400A86981 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B9681B2B5A8400A86981 /* Message.swift */; };
 		6085B96B1B2B5AA800A86981 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6085B96A1B2B5AA800A86981 /* Talk.swift */; };
@@ -261,6 +262,7 @@
 		C9B2F3A21B196736004F48FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				42F8B7471B2B5BF30068402E /* EntranceViewController.xib */,
 				42ABF98D1B0BAA0300AB933D /* Main.storyboard */,
 				42ABF9921B0BAA0300AB933D /* LaunchScreen.xib */,
 				C9B2F3961B196728004F48FF /* VideoVC.xib */,
@@ -280,7 +282,6 @@
 				7DAE7B5A1B16342B002B6D4A /* Notes2ViewController.xib */,
 				7DAE7B5D1B163B64002B6D4A /* NotesCell.xib */,
 				7D16DB751B18FF1800B02AE7 /* NotesView.xib */,
-				42F8B7471B2B5BF30068402E /* EntranceViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -389,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603B09301B2F80E20008A1F5 /* OratorStd.otf in Resources */,
 				C9B2F39E1B196728004F48FF /* FinishedVC.xib in Resources */,
 				168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */,
 				427324D41B0E65F2008F1155 /* Images.xcassets in Resources */,

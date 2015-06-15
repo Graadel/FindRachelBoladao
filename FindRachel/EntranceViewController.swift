@@ -10,6 +10,13 @@ import UIKit
 
 class EntranceViewController: UIViewController {
 
+    @IBAction func startButton(sender: AnyObject) {
+    
+        var videoVC: VideoVC = VideoVC(nibName:"VideoVC", bundle: nil)
+        self.presentViewController(videoVC, animated: true, completion: nil)
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +27,6 @@ class EntranceViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

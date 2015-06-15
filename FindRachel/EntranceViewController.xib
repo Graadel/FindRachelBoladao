@@ -37,12 +37,17 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="90" id="ReU-yQ-2vP"/>
                         <constraint firstAttribute="height" constant="42" id="XCU-PB-2cM"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="XP4-P5-Y6z"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="pkY-5X-Jfo"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="30"/>
                     <state key="normal" title="START">
                         <color key="titleColor" white="0.88931717998103088" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="startButton:" destination="-1" eventType="touchUpInside" id="VLV-tE-XgU"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>

@@ -37,7 +37,7 @@ class LockerVC: UIViewController {
         super.viewDidLoad()
         
         // IMAGEM DE FUNDO
-        imageView = UIImageView(image: UIImage(named:"Menublur.png"))
+        imageView = UIImageView(image: UIImage(named:"menublur"))
         
             imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
             imageView.contentMode = UIViewContentMode.ScaleAspectFit

@@ -39,10 +39,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         if defaults.integerForKey("hasRun") == 0 {
-            
-            var videoVC: VideoVC = VideoVC(nibName:"VideoVC", bundle: nil)
-            self.window!.rootViewController = videoVC
-            
+
+            var entranceViewController: EntranceViewController = EntranceViewController(nibName:"EntranceViewController", bundle: nil)
+            self.window!.rootViewController = entranceViewController
+     
             isAppAlreadyLaunchedOnce()
             
         } else {
