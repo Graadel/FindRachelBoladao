@@ -13,7 +13,6 @@
 		16AA3A4B1B1FA67A007507C7 /* LockerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */; };
 		16AA3A4D1B1FAB7B007507C7 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */; };
 		16AA3A4F1B1FABA0007507C7 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */; };
-		4202E94F1B2EFA33004EB135 /* SecondChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4202E94E1B2EFA33004EB135 /* SecondChapterViewController.swift */; };
 		427324D41B0E65F2008F1155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427324D31B0E65F2008F1155 /* Images.xcassets */; };
 		42ABF98C1B0BAA0300AB933D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ABF98B1B0BAA0300AB933D /* ViewController.swift */; };
 		42ABF98F1B0BAA0300AB933D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABF98D1B0BAA0300AB933D /* Main.storyboard */; };
@@ -89,7 +88,6 @@
 		16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		16ED76091B2E7CF200248EB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		16ED760A1B2E7CFE00248EB0 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
-		4202E94E1B2EFA33004EB135 /* SecondChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondChapterViewController.swift; sourceTree = "<group>"; };
 		4202E9501B2EFAF5004EB135 /* OratorStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OratorStd.otf; sourceTree = "<group>"; };
 		427324D31B0E65F2008F1155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42ABF9841B0BAA0300AB933D /* FindRachel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindRachel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,7 +307,6 @@
 				16AA3A4E1B1FABA0007507C7 /* ContentViewController.swift */,
 				16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */,
 				42F8B7461B2B5BF30068402E /* EntranceViewController.swift */,
-				4202E94E1B2EFA33004EB135 /* SecondChapterViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -463,7 +460,6 @@
 				6085B96B1B2B5AA800A86981 /* Talk.swift in Sources */,
 				6025AEBB1B262B6F0051C7E3 /* RachelMessagesCell.swift in Sources */,
 				16AA3A4F1B1FABA0007507C7 /* ContentViewController.swift in Sources */,
-				4202E94F1B2EFA33004EB135 /* SecondChapterViewController.swift in Sources */,
 				7DAE7B5B1B16342B002B6D4A /* Notes2ViewController.swift in Sources */,
 				7D16DB651B17AEF400B02AE7 /* CameraRoll.swift in Sources */,
 				60EBC1781B2CE43300ED62F6 /* NotesVC.swift in Sources */,
