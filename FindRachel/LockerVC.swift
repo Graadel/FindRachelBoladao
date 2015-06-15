@@ -35,7 +35,7 @@ class LockerVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView = UIImageView(image: UIImage(named:"Menublur.png"))
+        imageView = UIImageView(image: UIImage(named:"menublur.png"))
         
             imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
             imageView.contentMode = UIViewContentMode.ScaleAspectFit
@@ -58,6 +58,8 @@ class LockerVC: UIViewController {
             
         
         passImageView.image = UIImage(named: "visor1")
+        
+       self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu")!)
         
         
     }
