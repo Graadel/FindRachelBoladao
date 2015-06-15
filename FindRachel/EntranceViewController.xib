@@ -3,6 +3,11 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OratorStd.otf">
+            <string>OratorStd</string>
+        </mutableArray>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntranceViewController" customModule="FindRachel" customModuleProvider="target">
             <connections>
@@ -27,15 +32,49 @@
                         </mask>
                     </variation>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKS-ej-c4m">
+                    <rect key="frame" x="305" y="489" width="90" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="ReU-yQ-2vP"/>
+                        <constraint firstAttribute="height" constant="42" id="XCU-PB-2cM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="30"/>
+                    <state key="normal" title="START">
+                        <color key="titleColor" white="0.88931717998103088" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
             <constraints>
                 <constraint firstItem="mcD-AZ-RHc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="25Z-9A-O5g"/>
+                <constraint firstItem="rKS-ej-c4m" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="507" id="IFN-ay-sn6"/>
                 <constraint firstAttribute="trailing" secondItem="mcD-AZ-RHc" secondAttribute="trailing" id="PDN-Xz-12r"/>
+                <constraint firstItem="rKS-ej-c4m" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="506" id="QVF-mw-mDF"/>
+                <constraint firstItem="mcD-AZ-RHc" firstAttribute="centerX" secondItem="rKS-ej-c4m" secondAttribute="centerX" constant="-50" id="a7G-py-xrN"/>
+                <constraint firstItem="rKS-ej-c4m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="180" id="awp-su-cEk"/>
+                <constraint firstAttribute="centerY" secondItem="rKS-ej-c4m" secondAttribute="centerY" constant="-210" id="blf-aU-mtC"/>
+                <constraint firstItem="mcD-AZ-RHc" firstAttribute="top" secondItem="rKS-ej-c4m" secondAttribute="top" constant="-450" id="d95-5I-1xZ"/>
+                <constraint firstAttribute="centerY" secondItem="rKS-ej-c4m" secondAttribute="centerY" constant="-227" id="ezT-vt-IFS"/>
+                <constraint firstAttribute="centerX" secondItem="rKS-ej-c4m" secondAttribute="centerX" constant="-24.5" id="lLS-U1-zGz"/>
+                <constraint firstAttribute="centerX" secondItem="rKS-ej-c4m" secondAttribute="centerX" constant="-50" id="ouX-fM-ZBU"/>
+                <constraint firstItem="rKS-ej-c4m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="279" id="tYz-38-ZFu"/>
                 <constraint firstAttribute="bottom" secondItem="mcD-AZ-RHc" secondAttribute="bottom" id="v4S-kw-kum"/>
                 <constraint firstItem="mcD-AZ-RHc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xG9-sM-7il"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="a7G-py-xrN"/>
+                    <exclude reference="d95-5I-1xZ"/>
+                    <exclude reference="IFN-ay-sn6"/>
+                    <exclude reference="QVF-mw-mDF"/>
+                    <exclude reference="awp-su-cEk"/>
+                    <exclude reference="ezT-vt-IFS"/>
+                    <exclude reference="lLS-U1-zGz"/>
+                    <exclude reference="tYz-38-ZFu"/>
+                </mask>
+            </variation>
         </view>
     </objects>
     <resources>
