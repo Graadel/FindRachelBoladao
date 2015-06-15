@@ -15,67 +15,62 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     let defaults = NSUserDefaults.standardUserDefaults()
     
-    func isAppAlreadyLaunchedOnce()-> Bool {
-        
-        if (defaults.integerForKey("hasRun") == 0){
-            defaults.setInteger(1, forKey: "hasRun")
-            defaults.synchronize()
-            return true
-            
-        }
-        
-        return false
-    }
+//    func isAppAlreadyLaunchedOnce()-> Bool {
+//        
+//        if (defaults.integerForKey("hasRun") == 0){
+//            defaults.setInteger(1, forKey: "hasRun")
+//            defaults.synchronize()
+//            return true
+//            
+//        }
+//        
+//        return false
+//    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         println(defaults.integerForKey("hasRun").description)
         println(defaults.integerForKey("GamePhase").description)
         
+        //isAppAlreadyLaunchedOnce()
+        
+//        var mainScreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
+//        self.window!.rootViewController = mainScreenVC
+
+//        if defaults.integerForKey("hasRun") == 0 {
+//            
+//            
+//            
+//        } else
+        
+
+        if defaults.integerForKey("GamePhase") == 1 {
+            
+            var videoVC: VideoVC = VideoVC(nibName:"VideoVC", bundle: nil)
+            self.window!.rootViewController = videoVC
+            
+        }  else if defaults.integerForKey("GamePhase") == 2 {
+            
             var mainScreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
             self.window!.rootViewController = mainScreenVC
-  
+            
+        } else if defaults.integerForKey("GamePhase") == 3 {
+            
+            var mainScreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
+            self.window!.rootViewController = mainScreenVC
         
-        
-        
-        if defaults.integerForKey("hasRun") == 0 {
-
-            var entranceViewController: EntranceViewController = EntranceViewController(nibName:"EntranceViewController", bundle: nil)
-            self.window!.rootViewController = entranceViewController
-     
-            isAppAlreadyLaunchedOnce()
+        }  else if defaults.integerForKey("GamePhase") == 4 {
+            
+            var finishedVC: FinishedVC = FinishedVC()
+            self.window!.rootViewController = finishedVC
             
         } else {
-    
-            if defaults.integerForKey("GamePhase") == 2 {
-                
-                var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
-                self.window!.rootViewController = lockerVC
-                
-            }  else if defaults.integerForKey("GamePhase") == 3 {
-                
-                var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
-                self.window!.rootViewController = lockerVC
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 4 {
-                
-                var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
-                self.window!.rootViewController = lockerVC
-                
-
-                
-                
-            } else if defaults.integerForKey("GamePhase") == 5 {
-                
-                var finishedVC: FinishedVC = FinishedVC(nibName:"FinishedVC", bundle: nil)
-                self.window!.rootViewController = finishedVC
-                
-            }
-
-            
+            var videoVC: VideoVC = VideoVC(nibName:"VideoVC", bundle: nil)
+            self.window!.rootViewController = videoVC
+            defaults.setInteger(1, forKey: "GamePhase")
+           
         }
-        
+
         //isso aqui tem que voltar
 //        var controller: TestViewController = TestViewController(nibName:"TestViewController", bundle: nil)
 //        self.window!.rootViewController = controller

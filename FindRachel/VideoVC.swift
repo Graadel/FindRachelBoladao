@@ -23,7 +23,7 @@ class VideoVC: UIViewController {
         moviePlayer?.currentPlaybackRate = 1.0
         
         //demora para da o play
-        delay(32){
+        delay(33){
         
         var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
         self.presentViewController(lockerVC, animated: true, completion: nil)
@@ -31,19 +31,6 @@ class VideoVC: UIViewController {
         }
         
     }
-    
-
-    override func viewWillDisappear(animated: Bool) {
-        
-        defaults.setInteger(2, forKey: "GamePhase")
-        defaults.synchronize()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
     func playVideo() {
         
