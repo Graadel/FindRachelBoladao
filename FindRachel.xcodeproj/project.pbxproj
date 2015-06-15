@@ -62,7 +62,6 @@
 		C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F3941B1966F5004F48FF /* AppDelegate.swift */; };
 		C9B2F39C1B196728004F48FF /* VideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F3961B196728004F48FF /* VideoVC.xib */; };
 		C9B2F39D1B196728004F48FF /* BlockedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F3971B196728004F48FF /* BlockedVC.xib */; };
-		C9B2F39E1B196728004F48FF /* FinishedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F3981B196728004F48FF /* FinishedVC.xib */; };
 		C9B2F39F1B196728004F48FF /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F3991B196728004F48FF /* VideoVC.swift */; };
 		C9B2F3A01B196728004F48FF /* BlockedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F39A1B196728004F48FF /* BlockedVC.swift */; };
 		C9B2F3A11B196728004F48FF /* FinishedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F39B1B196728004F48FF /* FinishedVC.swift */; };
@@ -142,7 +141,6 @@
 		C9B2F3941B1966F5004F48FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B2F3961B196728004F48FF /* VideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoVC.xib; sourceTree = "<group>"; };
 		C9B2F3971B196728004F48FF /* BlockedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockedVC.xib; sourceTree = "<group>"; };
-		C9B2F3981B196728004F48FF /* FinishedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinishedVC.xib; sourceTree = "<group>"; };
 		C9B2F3991B196728004F48FF /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 		C9B2F39A1B196728004F48FF /* BlockedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedVC.swift; sourceTree = "<group>"; };
 		C9B2F39B1B196728004F48FF /* FinishedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedVC.swift; sourceTree = "<group>"; };
@@ -265,7 +263,6 @@
 				42ABF9921B0BAA0300AB933D /* LaunchScreen.xib */,
 				C9B2F3961B196728004F48FF /* VideoVC.xib */,
 				C9B2F3971B196728004F48FF /* BlockedVC.xib */,
-				C9B2F3981B196728004F48FF /* FinishedVC.xib */,
 				7DBFEB3B1B0BADB6008F189E /* Locker.xib */,
 				7D70B99B1B0E677B00BC1FB3 /* MainScreen.xib */,
 				7D70B9AD1B0E8DAC00BC1FB3 /* IconCellMainScreen.xib */,
@@ -389,7 +386,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B2F39E1B196728004F48FF /* FinishedVC.xib in Resources */,
 				168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */,
 				427324D41B0E65F2008F1155 /* Images.xcassets in Resources */,
 				7D16DB661B17AEF400B02AE7 /* CameraRoll.xib in Resources */,

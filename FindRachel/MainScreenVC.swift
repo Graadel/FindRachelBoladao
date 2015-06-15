@@ -33,21 +33,18 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         
     }
     
-    //
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
   
-        if defaults.integerForKey("GamePhase") == 7 {
-            // Aparece mensagem
-            
-            println("Aparece mensagem!")
-            
-            delay(2){
-                
-                var controller = BlockedVC(nibName:"BlockedVC", bundle:nil)
-                self.presentViewController(controller, animated: true, completion: nil)
-            }
-        }
+//        if defaults.integerForKey("GamePhase") == 7 {
+//            println("Aparece mensagem!")
+//            
+//            delay(2){
+//                
+//                var controller = BlockedVC(nibName:"BlockedVC", bundle:nil)
+//                self.presentViewController(controller, animated: true, completion: nil)
+//            }
+//        }
         
         if (defaults.boolForKey("tipShowed") == false) {
             
@@ -69,13 +66,6 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             ),
             dispatch_get_main_queue(), closure)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    // MARK: - Collection View DataSource
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
@@ -123,23 +113,14 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         } else if indexPath.row == 8 {
             
             cell.imageCell.image = UIImage(named: "fone.png")
-        }
-            else if indexPath.row == 9{
+        } else if indexPath.row == 9{
                 
                 cell.imageCell.image = UIImage(named: "sms.png")
-        }
-        else if indexPath.row == 10 {
+        } else if indexPath.row == 10 {
             
             cell.imageCell.image = UIImage(named: "internet.png")
             
         }
-        
-       
-            
-        
-
-
-        
         
         return cell
     }
@@ -179,16 +160,4 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
      println(indexPath.row)
         
     }
-
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

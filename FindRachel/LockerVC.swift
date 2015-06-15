@@ -36,15 +36,16 @@ class LockerVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         // IMAGEM DE FUNDO
         imageView = UIImageView(image: UIImage(named:"Menublur.png"))
         
             imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
             imageView.contentMode = UIViewContentMode.ScaleAspectFit
             
-            view.addSubview(imageView)
-            view.addSubview(lockLabel)
-            view.addSubview(passImageView)
+        view.addSubview(imageView)
+        view.addSubview(lockLabel)
+        view.addSubview(passImageView)
         view.addSubview(buttonOne)
         view.addSubview(buttonTwo)
         view.addSubview(buttonThree)
@@ -56,12 +57,14 @@ class LockerVC: UIViewController {
         view.addSubview(buttonNine)
         view.addSubview(buttonZero)
         
-        
-            
-        
         passImageView.image = UIImage(named: "visor1")
         
+<<<<<<< HEAD
+=======
+       self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu")!)
         
+        
+>>>>>>> origin/master
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -83,13 +86,9 @@ class LockerVC: UIViewController {
     
     @IBAction func tappedNumber(sender: AnyObject) {
         
-        
-        
         var num = sender.tag
         var numAsString = "\(num)"
         valueString = valueString.stringByAppendingString(numAsString)
-        //println(valueString)
-        
         
         //MUDA IMAGEM E CONFERE SENHA
         if count(valueString) == 1 {
@@ -100,48 +99,67 @@ class LockerVC: UIViewController {
             passImageView.image = UIImage(named: "visor3")
         } else if count(valueString) == 3 {
             passImageView.image = UIImage(named: "visor4")
-        } else if count(valueString) == 4 && valueString == code {
-            valueString = ""
+        } else if count(valueString) == 4 {
+
             passImageView.image = UIImage(named: "visor5")
-            var controller: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle:nil)
-            self.presentViewController(controller, animated: true, completion: nil)
             
-        } else {
-            println(code)
-            valueString = ""
-            lockLabel.text = "wrong"
-            passImageView.image = UIImage(named: "visor1")
+            //SENHA OK
+            if (valueString == code){
+
+                setDefaultValues()
+
+            //SENHA ERRADA
+            } else {
+                let delay = 0.3 * Double(NSEC_PER_SEC)
+                let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+                dispatch_after(time, dispatch_get_main_queue()) {
+                    self.valueString = ""
+                    self.lockLabel.text = "wrong"
+                    self.passImageView.image = UIImage(named: "visor1")
+
+                }
+            }
+
         }
     
+    }
+    
+    func setDefaultValues(){
+        
+        var controller : UIViewController = UIViewController()
+        
+        if defaults.integerForKey("LockerIndex") == 0 {
+            
+            defaults.setInteger(1, forKey: "LockerIndex")
+            defaults.setInteger(2, forKey: "GamePhase")
+            defaults.synchronize()
+            
+            controller = MainScreenVC(nibName:"MainScreen", bundle:nil)
+            
+        } else if defaults.integerForKey("LockerIndex") == 1 {
+            
+            defaults.setInteger(2, forKey: "LockerIndex")
+            defaults.setInteger(3, forKey: "GamePhase")
+            defaults.synchronize()
+            
+            controller = MainScreenVC(nibName:"MainScreen", bundle:nil)
+            
+        } else if defaults.integerForKey("LockerIndex") == 2 {
+
+            defaults.setInteger(4, forKey: "GamePhase")
+            defaults.synchronize()
+            
+            var finishedVC: FinishedVC = FinishedVC()
+        }
+        
+        
+        self.presentViewController(controller, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    override func viewWillDisappear(animated: Bool) {
-        if defaults.integerForKey("LockerIndex") == 0 {
-            defaults.setInteger(1, forKey: "LockerIndex")
-            defaults.synchronize()
-            
-            defaults.setInteger(3, forKey: "GamePhase")
-            defaults.synchronize()
-            
-            println("funcionou", defaults.integerForKey("LockerIndex"))
-        } else if defaults.integerForKey("LockerIndex") == 1 {
-            defaults.setInteger(2, forKey: "LockerIndex")
-            defaults.synchronize()
-            
-            defaults.setInteger(4, forKey: "GamePhase")
-            defaults.synchronize()
-            
-        } else if defaults.integerForKey("LockerIndex") == 2 {
-            defaults.setInteger(5, forKey: "GamePhase")
-            defaults.synchronize()
-        }
-        
 
-    }
   
 }
