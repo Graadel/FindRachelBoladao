@@ -71,6 +71,8 @@ class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionV
         imageView.clipsToBounds = true;
         cell.contentView.addSubview(imageView);
         
+        
+        
 //        cell.imageCellReceived.image = UIImage(named: Array[indexPath.row])
 //        cell.imageCellReceived.image = UIImage(named: Array[indexPath.row])
 //        cell.imageCellReceived.contentMode = UIViewContentMode.ScaleAspectFill
@@ -105,6 +107,10 @@ class ReceivedFiles: UIViewController, UICollectionViewDataSource, UICollectionV
         self.presentViewController(controller, animated: true, completion: nil)
         
     }
+    
+    
+    
+
     
     
     /*  // In a storyboard-based application, you will often want to do a little preparation before navigation

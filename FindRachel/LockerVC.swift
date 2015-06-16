@@ -69,9 +69,9 @@ class LockerVC: UIViewController {
         if defaults.integerForKey("LockerIndex") == 0 {
             code = "2010"
         }
-        
+        //true in numerics
         if defaults.integerForKey("LockerIndex") == 1 {
-            code = "7325"
+            code = "8783"
         }
         
         if defaults.integerForKey("LockerIndex") == 2 {

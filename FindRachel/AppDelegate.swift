@@ -15,17 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     let defaults = NSUserDefaults.standardUserDefaults()
     
-//    func isAppAlreadyLaunchedOnce()-> Bool {
-//        
-//        if (defaults.integerForKey("hasRun") == 0){
-//            defaults.setInteger(1, forKey: "hasRun")
-//            defaults.synchronize()
-//            return true
-//            
-//        }
-//        
-//        return false
-//    }
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
