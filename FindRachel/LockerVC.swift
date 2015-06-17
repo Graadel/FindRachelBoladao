@@ -16,6 +16,26 @@ class LockerVC: UIViewController {
     var valueString = ""
     var imageView: UIImageView!
     
+    @IBOutlet weak var restartButton: UIButton!
+    
+    @IBAction func refreshAction(sender: AnyObject) {
+        
+        defaults.setInteger(1, forKey: "GamePhase")
+        defaults.synchronize()
+        
+        defaults.setInteger(1, forKey: "LockerIndex")
+        defaults.synchronize()
+        
+        defaults.setBool(false, forKey: "PhotosViewed")
+        defaults.synchronize()
+        
+        defaults.setBool(false, forKey: "NotesViewed")
+        defaults.synchronize()
+        
+        var videoVC: VideoVC = VideoVC(nibName:"VideoVC", bundle: nil)
+        self.presentViewController(videoVC, animated: true, completion: nil)
+        
+    }
     @IBOutlet weak var lockLabel: UILabel!
     @IBOutlet weak var passImageView: UIImageView!
     
@@ -56,6 +76,7 @@ class LockerVC: UIViewController {
         view.addSubview(buttonEight)
         view.addSubview(buttonNine)
         view.addSubview(buttonZero)
+        view.addSubview(restartButton)
         
         passImageView.image = UIImage(named: "visor1")
         
@@ -69,9 +90,9 @@ class LockerVC: UIViewController {
         if defaults.integerForKey("LockerIndex") == 0 {
             code = "2010"
         }
-        //true in numerics
+        
         if defaults.integerForKey("LockerIndex") == 1 {
-            code = "8783"
+            code = "7325"
         }
         
         if defaults.integerForKey("LockerIndex") == 2 {

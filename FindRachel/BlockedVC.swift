@@ -31,7 +31,7 @@ class BlockedVC: UIViewController, UIScrollViewDelegate{
     override func viewWillAppear(animated: Bool) {
         
         // IMAGEM DE FUNDO
-        background = UIImage(named: "fundo")
+        background = UIImage(named: "menublur")
         
         var hora: UILabel = UILabel(frame: CGRectMake(0,0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height/4))
         hora.text = "17:84"

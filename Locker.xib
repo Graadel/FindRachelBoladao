@@ -18,6 +18,7 @@
                 <outlet property="buttonZero" destination="wxN-vn-BJC" id="vZO-U2-g68"/>
                 <outlet property="lockLabel" destination="7yZ-cP-jO9" id="8A1-6x-kTN"/>
                 <outlet property="passImageView" destination="GkY-sj-hCx" id="ey6-HJ-W6m"/>
+                <outlet property="restartButton" destination="1fo-BI-lGJ" id="Ygt-77-r4R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -185,6 +186,19 @@
                         <action selector="tappedNumber:" destination="-1" eventType="touchUpInside" id="OmC-He-qMX"/>
                     </connections>
                 </button>
+                <button opaque="NO" alpha="0.59999999999999964" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fo-BI-lGJ">
+                    <rect key="frame" x="397" y="544" width="34" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="5CK-Cw-oOb"/>
+                        <constraint firstAttribute="height" constant="38" id="gTK-Ws-BBZ"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="Cirular_Arrow_256">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="refreshAction:" destination="-1" eventType="touchUpInside" id="RZB-Ta-kQv"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
@@ -198,6 +212,7 @@
                 <constraint firstAttribute="centerX" secondItem="p7g-kJ-5eP" secondAttribute="centerX" id="JRt-D9-gVR"/>
                 <constraint firstItem="GkY-sj-hCx" firstAttribute="top" secondItem="xPZ-1G-b9D" secondAttribute="bottom" constant="8" id="JnK-mU-sPX"/>
                 <constraint firstAttribute="centerY" secondItem="p7g-kJ-5eP" secondAttribute="centerY" id="Jv8-Aa-Cu0"/>
+                <constraint firstAttribute="centerX" secondItem="1fo-BI-lGJ" secondAttribute="centerX" constant="-107.5" id="TaS-Dd-5n9"/>
                 <constraint firstItem="kFE-mQ-AXo" firstAttribute="top" secondItem="p7g-kJ-5eP" secondAttribute="bottom" constant="22" id="UPK-s3-FwS"/>
                 <constraint firstItem="K2A-fK-ssW" firstAttribute="top" secondItem="6kf-AW-WZd" secondAttribute="bottom" constant="22" id="VE0-Gd-u0v"/>
                 <constraint firstItem="tuU-Y4-Irv" firstAttribute="top" secondItem="Icf-Tn-ziO" secondAttribute="bottom" constant="22" id="Wvd-N8-G8r"/>
@@ -212,6 +227,7 @@
                 <constraint firstAttribute="centerX" secondItem="xPZ-1G-b9D" secondAttribute="centerX" id="jys-q6-UV1"/>
                 <constraint firstItem="iiW-NC-p6H" firstAttribute="centerX" secondItem="Icf-Tn-ziO" secondAttribute="centerX" id="kIz-JK-SML"/>
                 <constraint firstItem="Icf-Tn-ziO" firstAttribute="top" secondItem="iiW-NC-p6H" secondAttribute="bottom" constant="22" id="l8X-LG-WFo"/>
+                <constraint firstAttribute="centerY" secondItem="1fo-BI-lGJ" secondAttribute="centerY" constant="-253" id="ngy-aj-hRx"/>
                 <constraint firstAttribute="centerX" secondItem="GkY-sj-hCx" secondAttribute="centerX" constant="-0.5" id="phb-Pn-x8s"/>
                 <constraint firstAttribute="centerY" secondItem="7yZ-cP-jO9" secondAttribute="centerY" constant="167.5" id="py3-O5-ISJ"/>
                 <constraint firstItem="lGU-Zf-0xN" firstAttribute="top" secondItem="K2A-fK-ssW" secondAttribute="bottom" constant="22" id="qRT-k2-hCE"/>
@@ -233,6 +249,7 @@
         <image name="7" width="149" height="149"/>
         <image name="8" width="149" height="149"/>
         <image name="9" width="149" height="149"/>
+        <image name="Cirular_Arrow_256" width="256" height="256"/>
         <image name="lockbutton5" width="69" height="69"/>
     </resources>
 </document>
