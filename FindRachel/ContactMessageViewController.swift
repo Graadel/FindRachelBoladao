@@ -78,7 +78,7 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
             cell.messageLabel.layer.cornerRadius = 8
             cell.messageLabel.layer.masksToBounds = true
             
-            cell.messageLabel.backgroundColor = UIColor(rgba: "#47d533")
+            cell.messageLabel.backgroundColor = UIColor.purpleColor()
             cell.messageLabel.textColor = UIColor.whiteColor()
             cell.messageLabel.font = UIFont(name: "Helvetica Neue", size: 18)
             
@@ -92,9 +92,10 @@ class ContactMessageViewController: UIViewController, UITableViewDelegate, UITab
             cell.messageLabel.layer.cornerRadius = 8
             cell.messageLabel.layer.masksToBounds = true
             
-            cell.messageLabel.backgroundColor = UIColor(rgba: "#e6e7ec")
+            cell.messageLabel.backgroundColor = UIColor(rgba: "#fef0fd")
             cell.messageLabel.textColor = UIColor.blackColor()
             cell.messageLabel.font = UIFont(name: "Helvetica Neue", size: 18)
+         
             
             return cell
         }

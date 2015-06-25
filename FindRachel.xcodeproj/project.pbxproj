@@ -60,6 +60,7 @@
 		7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBFEB4B1B0BB899008F189E /* Messages.xib */; };
 		7DCF99A41B13BF5300B0A117 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF99A21B13BF5300B0A117 /* PhotosVC.swift */; };
 		7DCF99A51B13BF5300B0A117 /* Photos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF99A31B13BF5300B0A117 /* Photos.xib */; };
+		7DE06C1D1B3CA1740075496C /* seta_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE06C1C1B3CA1740075496C /* seta_pink.png */; };
 		C9B2F3951B1966F5004F48FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F3941B1966F5004F48FF /* AppDelegate.swift */; };
 		C9B2F39C1B196728004F48FF /* VideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F3961B196728004F48FF /* VideoVC.xib */; };
 		C9B2F39D1B196728004F48FF /* BlockedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F3971B196728004F48FF /* BlockedVC.xib */; };
@@ -139,6 +140,7 @@
 		7DBFEB4B1B0BB899008F189E /* Messages.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Messages.xib; path = ../Messages.xib; sourceTree = "<group>"; };
 		7DCF99A21B13BF5300B0A117 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		7DCF99A31B13BF5300B0A117 /* Photos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Photos.xib; sourceTree = "<group>"; };
+		7DE06C1C1B3CA1740075496C /* seta_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seta_pink.png; sourceTree = "<group>"; };
 		C9B2F3941B1966F5004F48FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B2F3961B196728004F48FF /* VideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoVC.xib; sourceTree = "<group>"; };
 		C9B2F3971B196728004F48FF /* BlockedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockedVC.xib; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */,
 				168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */,
 				427324D31B0E65F2008F1155 /* Images.xcassets */,
+				7DE06C1C1B3CA1740075496C /* seta_pink.png */,
 				42ABF9881B0BAA0300AB933D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -388,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				603B09301B2F80E20008A1F5 /* OratorStd.otf in Resources */,
-				C9B2F39E1B196728004F48FF /* FinishedVC.xib in Resources */,
 				168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */,
 				427324D41B0E65F2008F1155 /* Images.xcassets in Resources */,
 				7D16DB661B17AEF400B02AE7 /* CameraRoll.xib in Resources */,
@@ -407,6 +409,7 @@
 				7D3D46441B0CF809004FC699 /* Gallery.xib in Resources */,
 				7DBFEB4D1B0BB899008F189E /* Messages.xib in Resources */,
 				7D16DB771B18FF1800B02AE7 /* NotesView.xib in Resources */,
+				7DE06C1D1B3CA1740075496C /* seta_pink.png in Resources */,
 				60F4B0F31B14F4E500691114 /* ContactMessageViewController.xib in Resources */,
 				7DAE7B5C1B16342B002B6D4A /* Notes2ViewController.xib in Resources */,
 				42ABF9941B0BAA0300AB933D /* LaunchScreen.xib in Resources */,
