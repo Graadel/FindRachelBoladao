@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotesVC" customModule="FindRachel" customModuleProvider="target">
@@ -16,10 +16,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1s-X6-3Pu">
-                    <rect key="frame" x="8" y="8" width="48" height="44"/>
+                    <rect key="frame" x="8" y="12" width="41" height="37"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="48" id="CYR-Bq-4hj"/>
-                        <constraint firstAttribute="height" constant="44" id="r1Z-bc-FLQ"/>
+                        <constraint firstAttribute="width" constant="41" id="CYR-Bq-4hj"/>
+                        <constraint firstAttribute="height" constant="37" id="r1Z-bc-FLQ"/>
                     </constraints>
                     <state key="normal" image="seta_pink.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,7 +29,7 @@
                     </connections>
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="lo" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XHn-AG-V1L">
-                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                    <rect key="frame" x="0.0" y="57" width="600" height="543"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -40,7 +40,7 @@
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7yD-e0-ieo"/>
                 <constraint firstAttribute="trailing" secondItem="XHn-AG-V1L" secondAttribute="trailing" id="AIh-QB-lny"/>
                 <constraint firstItem="XHn-AG-V1L" firstAttribute="top" secondItem="g1s-X6-3Pu" secondAttribute="bottom" constant="8" id="NXk-qd-OAI"/>
-                <constraint firstItem="g1s-X6-3Pu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="ZRk-bV-AHT"/>
+                <constraint firstItem="g1s-X6-3Pu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="12" id="ZRk-bV-AHT"/>
                 <constraint firstItem="g1s-X6-3Pu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="tOa-0l-J90"/>
                 <constraint firstAttribute="bottom" secondItem="XHn-AG-V1L" secondAttribute="bottom" id="y1E-6B-Owy"/>
             </constraints>

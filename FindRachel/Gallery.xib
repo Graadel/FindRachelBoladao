@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Gallery" customModule="FindRachel" customModuleProvider="target">
@@ -15,10 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSC-BX-jGc">
-                    <rect key="frame" x="8" y="8" width="48" height="44"/>
+                    <rect key="frame" x="8" y="12" width="41" height="37"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="48" id="E8I-GW-HfG"/>
-                        <constraint firstAttribute="height" constant="44" id="mXG-sN-Vrd"/>
+                        <constraint firstAttribute="width" constant="41" id="E8I-GW-HfG"/>
+                        <constraint firstAttribute="height" constant="37" id="mXG-sN-Vrd"/>
                     </constraints>
                     <state key="normal" image="seta_pink.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,7 +31,7 @@
                     </connections>
                 </button>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DcW-YP-mAX">
-                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                    <rect key="frame" x="0.0" y="57" width="600" height="543"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="0.0" id="3Hh-to-PsN">
                         <size key="itemSize" width="93" height="93"/>
@@ -43,7 +43,7 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="NSC-BX-jGc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="GEE-D6-zV5"/>
+                <constraint firstItem="NSC-BX-jGc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="12" id="GEE-D6-zV5"/>
                 <constraint firstAttribute="bottom" secondItem="DcW-YP-mAX" secondAttribute="bottom" id="aVk-r2-rrA"/>
                 <constraint firstItem="DcW-YP-mAX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="baO-Wx-Eoz"/>
                 <constraint firstItem="DcW-YP-mAX" firstAttribute="leading" secondItem="NSC-BX-jGc" secondAttribute="trailing" constant="-56" id="cmL-HU-e8T"/>

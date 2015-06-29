@@ -14,13 +14,13 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-Qx-XYt">
-                    <rect key="frame" x="20" y="15" width="40" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAt-Qx-XYt">
+                    <rect key="frame" x="8" y="12" width="41" height="37"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="N9C-Rp-em3"/>
-                        <constraint firstAttribute="width" constant="40" id="qKQ-vr-ZBS"/>
+                        <constraint firstAttribute="height" constant="37" id="N9C-Rp-em3"/>
+                        <constraint firstAttribute="width" constant="41" id="qKQ-vr-ZBS"/>
                     </constraints>
-                    <state key="normal" title="Close">
+                    <state key="normal" title="Close" image="seta_pink.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -30,23 +30,14 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="GAt-Qx-XYt" secondAttribute="trailing" constant="540" id="6g3-Ue-iqe"/>
-                <constraint firstAttribute="centerY" secondItem="GAt-Qx-XYt" secondAttribute="centerY" constant="270" id="F4T-BA-UcS"/>
-                <constraint firstItem="GAt-Qx-XYt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="NYy-A5-69S"/>
-                <constraint firstItem="GAt-Qx-XYt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="fb3-Ax-W7F"/>
-                <constraint firstAttribute="centerX" secondItem="GAt-Qx-XYt" secondAttribute="centerX" constant="260" id="hcQ-Zo-AE3"/>
-                <constraint firstAttribute="bottom" secondItem="GAt-Qx-XYt" secondAttribute="bottom" constant="555" id="ioz-1J-6Wn"/>
+                <constraint firstItem="GAt-Qx-XYt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="12" id="fAX-dG-kTw"/>
+                <constraint firstItem="GAt-Qx-XYt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="ne2-R5-LIs"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="6g3-Ue-iqe"/>
-                    <exclude reference="F4T-BA-UcS"/>
-                    <exclude reference="hcQ-Zo-AE3"/>
-                    <exclude reference="ioz-1J-6Wn"/>
-                </mask>
-            </variation>
             <point key="canvasLocation" x="373" y="250"/>
         </view>
     </objects>
+    <resources>
+        <image name="seta_pink.png" width="206" height="124"/>
+    </resources>
 </document>
