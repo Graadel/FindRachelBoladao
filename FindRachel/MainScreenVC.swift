@@ -104,7 +104,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             
         } else if indexPath.row == 6 {
             
-            cell.imageCell.image = UIImage(named: "twitter.png")
+            cell.imageCell.image = UIImage(named: "Twitter.png")
             
         } else if indexPath.row == 7 {
             
