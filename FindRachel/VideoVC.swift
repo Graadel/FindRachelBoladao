@@ -23,7 +23,7 @@ class VideoVC: UIViewController {
         moviePlayer?.currentPlaybackRate = 1.0
         
         //demora para da o play
-        delay(3){
+        delay(32){
         
         var lockerVC: LockerVC = LockerVC(nibName:"Locker", bundle: nil)
         self.presentViewController(lockerVC, animated: true, completion: nil)

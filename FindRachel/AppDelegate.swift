@@ -41,12 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }  else if defaults.integerForKey("GamePhase") == 2 {
             
-            var mainScreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
+            var mainScreenVC = EntranceViewController(nibName:"EntranceViewController", bundle: nil)
             self.window!.rootViewController = mainScreenVC
             
         } else if defaults.integerForKey("GamePhase") == 3 {
             
-            var mainScreenVC: MainScreenVC = MainScreenVC(nibName:"MainScreen", bundle: nil)
+            var mainScreenVC = EntranceViewController(nibName:"EntranceViewController", bundle: nil)
             self.window!.rootViewController = mainScreenVC
         
         }  else if defaults.integerForKey("GamePhase") == 4 {

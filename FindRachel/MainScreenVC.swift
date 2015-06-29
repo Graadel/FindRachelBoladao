@@ -92,11 +92,11 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             
         } else if indexPath.row == 3 {
             
-            cell.imageCell.image = UIImage(named: "insta.png")
+            cell.imageCell.image = UIImage(named: "Insta.png")
             
         } else if indexPath.row == 4 {
             
-            cell.imageCell.image = UIImage(named: "snapp.png")
+            cell.imageCell.image = UIImage(named: "snapp")
             
         } else if indexPath.row == 5 {
             
