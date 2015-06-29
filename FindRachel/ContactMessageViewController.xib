@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactMessageViewController" customModule="FindRachel" customModuleProvider="target">
@@ -15,35 +15,59 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-q7-Evh">
-                    <rect key="frame" x="24" y="32" width="35" height="30"/>
-                    <state key="normal" title="Back">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-q7-Evh">
+                    <rect key="frame" x="8" y="8" width="48" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="P5l-am-ait"/>
+                        <constraint firstAttribute="width" constant="48" id="Qiu-5d-8so"/>
+                    </constraints>
+                    <state key="normal" image="seta_pink.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="backButton:" destination="-1" eventType="touchUpInside" id="W1q-NW-KRe"/>
                     </connections>
                 </button>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-55-jAS">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-55-jAS">
+                    <rect key="frame" x="0.0" y="60" width="320" height="508"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="EsX-55-jAS" secondAttribute="trailing" id="08C-gf-5cx"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="8" id="1Y5-wA-mqQ"/>
                 <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="61" id="Bg1-8O-MIt"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BtZ-Ef-NEj"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" id="CXS-6X-iNm"/>
+                <constraint firstAttribute="trailing" secondItem="EsX-55-jAS" secondAttribute="trailing" id="Kve-T7-Wov"/>
+                <constraint firstAttribute="bottom" secondItem="EsX-55-jAS" secondAttribute="bottom" id="Lo3-hz-2Ls"/>
+                <constraint firstItem="uqb-q7-Evh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="PEd-WP-jwp"/>
                 <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="-1" id="Vl4-bL-4WI"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="8" id="WLO-XM-IAc"/>
                 <constraint firstAttribute="bottom" secondItem="EsX-55-jAS" secondAttribute="bottom" id="ZlG-r7-Zly"/>
-                <constraint firstItem="uqb-q7-Evh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="hgG-3f-x8y"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="8" id="a9W-tW-wd5"/>
+                <constraint firstAttribute="bottom" secondItem="EsX-55-jAS" secondAttribute="bottom" id="fpV-cu-RxV"/>
+                <constraint firstItem="uqb-q7-Evh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="hgG-3f-x8y"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="top" secondItem="uqb-q7-Evh" secondAttribute="bottom" constant="8" id="ksQ-Jb-zf2"/>
+                <constraint firstItem="EsX-55-jAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="v7L-q0-kbO"/>
                 <constraint firstItem="EsX-55-jAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xGU-b0-ALj"/>
+                <constraint firstAttribute="trailing" secondItem="EsX-55-jAS" secondAttribute="trailing" id="xcg-hC-Fc0"/>
             </constraints>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="constraints">
                     <exclude reference="08C-gf-5cx"/>
+                    <exclude reference="1Y5-wA-mqQ"/>
                     <exclude reference="Bg1-8O-MIt"/>
+                    <exclude reference="CXS-6X-iNm"/>
+                    <exclude reference="Kve-T7-Wov"/>
+                    <exclude reference="Lo3-hz-2Ls"/>
                     <exclude reference="Vl4-bL-4WI"/>
+                    <exclude reference="WLO-XM-IAc"/>
                     <exclude reference="ZlG-r7-Zly"/>
+                    <exclude reference="ksQ-Jb-zf2"/>
+                    <exclude reference="v7L-q0-kbO"/>
                     <exclude reference="xGU-b0-ALj"/>
                 </mask>
             </variation>
@@ -58,4 +82,7 @@
             </variation>
         </view>
     </objects>
+    <resources>
+        <image name="seta_pink.png" width="206" height="124"/>
+    </resources>
 </document>
