@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */; };
-		168107441B296EB900352BDE /* Video_Rachel_pt.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */; };
+		1657DD131B4306C600E538EE /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1657DD121B4306C600E538EE /* Video.mp4 */; };
 		168107461B2981EF00352BDE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168107451B2981EF00352BDE /* UIColorExtension.swift */; };
 		16AA3A4B1B1FA67A007507C7 /* LockerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */; };
 		16AA3A4D1B1FAB7B007507C7 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */; };
@@ -81,8 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video_Rachel_eng.mp4; sourceTree = "<group>"; };
-		168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video_Rachel_pt.mp4; sourceTree = "<group>"; };
+		1657DD121B4306C600E538EE /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video.mp4; sourceTree = "<group>"; };
 		168107451B2981EF00352BDE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		16AA3A4A1B1FA67A007507C7 /* LockerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerTest.swift; sourceTree = "<group>"; };
 		16AA3A4C1B1FAB7B007507C7 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
@@ -195,8 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				4202E9501B2EFAF5004EB135 /* OratorStd.otf */,
-				168107411B296EB900352BDE /* Video_Rachel_eng.mp4 */,
-				168107421B296EB900352BDE /* Video_Rachel_pt.mp4 */,
+				1657DD121B4306C600E538EE /* Video.mp4 */,
 				427324D31B0E65F2008F1155 /* Images.xcassets */,
 				7DE06C1C1B3CA1740075496C /* seta_pink.png */,
 				42ABF9881B0BAA0300AB933D /* Info.plist */,
@@ -391,12 +388,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				603B09301B2F80E20008A1F5 /* OratorStd.otf in Resources */,
-				168107431B296EB900352BDE /* Video_Rachel_eng.mp4 in Resources */,
 				427324D41B0E65F2008F1155 /* Images.xcassets in Resources */,
 				7D16DB661B17AEF400B02AE7 /* CameraRoll.xib in Resources */,
-				168107441B296EB900352BDE /* Video_Rachel_pt.mp4 in Resources */,
 				C9B2F39D1B196728004F48FF /* BlockedVC.xib in Resources */,
 				C9B2F39C1B196728004F48FF /* VideoVC.xib in Resources */,
+				1657DD131B4306C600E538EE /* Video.mp4 in Resources */,
 				7DBFEB3D1B0BADB6008F189E /* Locker.xib in Resources */,
 				7D18CEE01B0E8ED300F3B340 /* IconCellGallery.xib in Resources */,
 				60F4B0E91B13D32400691114 /* MessagesTVCell.xib in Resources */,
