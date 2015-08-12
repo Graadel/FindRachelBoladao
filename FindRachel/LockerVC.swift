@@ -58,7 +58,7 @@ class LockerVC: UIViewController {
         
 
         // IMAGEM DE FUNDO
-        imageView = UIImageView(image: UIImage(named:"menublur"))
+        imageView = UIImageView(image: UIImage(named:"menublur_ipad"))
         
             imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
             imageView.contentMode = UIViewContentMode.ScaleAspectFit
@@ -79,6 +79,7 @@ class LockerVC: UIViewController {
         view.addSubview(restartButton)
         
         passImageView.image = UIImage(named: "visor1")
+        imageView.contentMode = UIViewContentMode.ScaleToFill
         
        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Menu")!)
         

@@ -44,7 +44,7 @@ class VideoVC: UIViewController {
             
             player.view.frame = UIScreen.mainScreen().bounds
             player.prepareToPlay()
-            player.scalingMode = .AspectFit
+            player.scalingMode = .Fill
             player.controlStyle = .None
             self.view.addSubview(player.view)
             player.play()

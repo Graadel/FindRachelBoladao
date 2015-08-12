@@ -20,10 +20,11 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         super.viewDidLoad()
         
 
-        imageView = UIImageView(image: UIImage(named: "Menu.png"))
+        imageView = UIImageView(image: UIImage(named: "menu_ipad.png"))
         
         imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
-        imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        imageView.contentMode = UIViewContentMode.ScaleToFill
+        //ScaleToFill
         
         self.collectionView.registerNib(UINib(nibName:"IconCellMainScreen", bundle:NSBundle.mainBundle()), forCellWithReuseIdentifier: "cell")
         
@@ -92,7 +93,7 @@ class MainScreenVC: UIViewController, UICollectionViewDataSource, UICollectionVi
             
         } else if indexPath.row == 3 {
             
-            cell.imageCell.image = UIImage(named: "insta.png")
+            cell.imageCell.image = UIImage(named: "Insta.png")
             
         } else if indexPath.row == 4 {
             
